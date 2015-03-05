@@ -1,0 +1,17 @@
+<%= form_for(@mutant) do |f| %>
+  <% if @mutant.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@mutant.errors.count, "error") %> prohibited this mutant from being saved:</h2>
+
+      <ul>
+      <% @mutant.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

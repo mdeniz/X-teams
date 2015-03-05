@@ -11,7 +11,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150305014354) do
+ActiveRecord::Schema.define(version: 20150305101306) do
+
+  create_table "mutants", force: :cascade do |t|
+    t.string   "mutant_name"
+    t.string   "alias"
+    t.string   "real_name"
+    t.string   "sex"
+    t.string   "skintone"
+    t.string   "place_of_birth"
+    t.string   "country"
+    t.text     "description"
+    t.integer  "height"
+    t.integer  "weight"
+    t.string   "eyes"
+    t.string   "hair"
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
+  end
+
+  add_index "mutants", ["mutant_name"], name: "index_mutants_on_mutant_name", unique: true
 
   create_table "teams", force: :cascade do |t|
     t.string   "name"
@@ -24,11 +43,11 @@ ActiveRecord::Schema.define(version: 20150305014354) do
   add_index "teams", ["name"], name: "index_teams_on_name", unique: true
 
   create_table "users", force: :cascade do |t|
+    t.string   "name"
     t.string   "email"
     t.string   "password_digest"
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false
-    t.string   "name"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true

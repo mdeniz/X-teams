@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :mutants
+
   root 'static_pages#home'
 
   get    'login'   => 'sessions#new'
@@ -12,7 +14,7 @@ Rails.application.routes.draw do
 
   resources :teams
 
-  resources :users
+  get 'profile' => 'users#show'
 # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

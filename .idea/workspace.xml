@@ -2,30 +2,195 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="992bf18b-6060-4210-8ff3-9c8dfa102f4b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/static_pages/about.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/haml.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/static_pages/help.html.haml" />
+      <change type="DELETED" beforePath="Z:\public_html\x_teams\app\assets\stylesheets\scaffolds.scfss" afterPath="" />
+      <change type="DELETED" beforePath="Z:\public_html\x_teams\app\views\users\_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="Z:\public_html\x_teams\app\views\users\edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="Z:\public_html\x_teams\app\views\users\index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="Z:\public_html\x_teams\app\views\users\index.json.jbuilder" afterPath="" />
+      <change type="DELETED" beforePath="Z:\public_html\x_teams\app\views\users\new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="Z:\public_html\x_teams\db\migrate\20150305014354_add_index_to_users.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/.gemtest" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/.gemtest" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/HISTORY" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/HISTORY" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/i/arrows.png" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/i/arrows.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/extensions/x86_64-linux/2.1.0/bcrypt-3.1.10/bcrypt_ext.so" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/extensions/x86_64-linux/2.1.0/bcrypt-3.1.10/bcrypt_ext.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/extensions/x86_64-linux/2.1.0/byebug-3.5.1/byebug/byebug.so" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/extensions/x86_64-linux/2.1.0/byebug-3.5.1/byebug/byebug.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/byebug-3.5.1/ext/byebug/byebug.so" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/byebug-3.5.1/ext/byebug/byebug.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/extensions/x86_64-linux/2.1.0/debug_inspector-0.0.2/debug_inspector.so" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/extensions/x86_64-linux/2.1.0/debug_inspector-0.0.2/debug_inspector.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debug_inspector-0.0.2/ext/debug_inspector/debug_inspector.so" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debug_inspector-0.0.2/ext/debug_inspector/debug_inspector.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debug_inspector-0.0.2/lib/debug_inspector.so" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debug_inspector-0.0.2/lib/debug_inspector.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/extensions/x86_64-linux/2.1.0/json-1.8.2/json/ext/generator.so" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/extensions/x86_64-linux/2.1.0/json-1.8.2/json/ext/generator.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/json-1.8.2/ext/json/ext/generator/generator.so" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/json-1.8.2/ext/json/ext/generator/generator.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/json-1.8.2/lib/json/ext/generator.so" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/json-1.8.2/lib/json/ext/generator.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/extensions/x86_64-linux/2.1.0/therubyracer-0.12.1/v8/init.so" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/extensions/x86_64-linux/2.1.0/therubyracer-0.12.1/v8/init.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/therubyracer-0.12.1/ext/v8/init.so" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/therubyracer-0.12.1/ext/v8/init.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/extensions/x86_64-linux/2.1.0/nokogiri-1.6.6.2/nokogiri/nokogiri.so" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/extensions/x86_64-linux/2.1.0/nokogiri-1.6.6.2/nokogiri/nokogiri.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/nokogiri-1.6.6.2/ext/nokogiri/nokogiri.so" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/nokogiri-1.6.6.2/ext/nokogiri/nokogiri.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/nokogiri-1.6.6.2/lib/nokogiri/nokogiri.so" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/nokogiri-1.6.6.2/lib/nokogiri/nokogiri.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/extensions/x86_64-linux/2.1.0/json-1.8.2/json/ext/parser.so" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/extensions/x86_64-linux/2.1.0/json-1.8.2/json/ext/parser.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/json-1.8.2/ext/json/ext/parser/parser.so" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/json-1.8.2/ext/json/ext/parser/parser.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/json-1.8.2/lib/json/ext/parser.so" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/json-1.8.2/lib/json/ext/parser.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/i/results_bg.png" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/i/results_bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/extensions/x86_64-linux/2.1.0/sqlite3-1.3.10/sqlite3/sqlite3_native.so" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/extensions/x86_64-linux/2.1.0/sqlite3-1.3.10/sqlite3/sqlite3_native.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sqlite3-1.3.10/ext/sqlite3/sqlite3_native.so" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sqlite3-1.3.10/ext/sqlite3/sqlite3_native.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sqlite3-1.3.10/lib/sqlite3/sqlite3_native.so" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sqlite3-1.3.10/lib/sqlite3/sqlite3_native.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/i/tree_bg.png" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/i/tree_bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/.gitignore" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/.yardopts" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/.yardopts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20150304155715_create_users.rb" afterPath="$PROJECT_DIR$/db/migrate/20150304155715_create_users.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/LICENSE" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/README.md" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/Rakefile" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/Rakefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debug_inspector-0.0.2/Rakefile" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debug_inspector-0.0.2/Rakefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/_context.rhtml" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/_context.rhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/teams/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/teams/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/about.html.haml" afterPath="$PROJECT_DIR$/app/views/static_pages/about.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/thread_safe-0.3.4/examples/bench_cache.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/thread_safe-0.3.4/examples/bench_cache.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/loofah-2.0.1/benchmark/benchmark.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/loofah-2.0.1/benchmark/benchmark.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debugger-linecache-1.2.0/test/data/block1.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debugger-linecache-1.2.0/test/data/block1.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/nokogiri-1.6.6.2/build_all" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/nokogiri-1.6.6.2/build_all" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/builder-3.2.2/doc/releases/builder-2.1.1.rdoc" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/builder-3.2.2/doc/releases/builder-2.1.1.rdoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/bundle" afterPath="$PROJECT_DIR$/bin/bundle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/web-console-2.1.0/test/dummy/bin/bundle" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/web-console-2.1.0/test/dummy/bin/bundle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/byebug" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/byebug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/byebug-3.5.1/bin/byebug" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/byebug-3.5.1/bin/byebug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/cache_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/cache_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/callbacks_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/callbacks_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/class.rhtml" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/class.rhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/haml-4.0.6/lib/haml/compiler.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/haml-4.0.6/lib/haml/compiler.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/compiler_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/compiler_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/conversion_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/conversion_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/css2sass_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/css2sass_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/scss/css_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/scss/css_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/encoding_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/encoding_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/engine_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/engine_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/erubis" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/erubis" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/erubis-2.7.0/bin/erubis" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/erubis-2.7.0/bin/erubis" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/erubis-2.7.0/contrib/erubis" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/erubis-2.7.0/contrib/erubis" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/exec_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/exec_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/ext/binding_of_caller/extconf.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/ext/binding_of_caller/extconf.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debug_inspector-0.0.2/ext/debug_inspector/extconf.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debug_inspector-0.0.2/ext/debug_inspector/extconf.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/extend_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/extend_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/file.rhtml" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/file.rhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/functions_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/functions_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/json-1.8.2/tools/fuzz.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/json-1.8.2/tools/fuzz.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/haml" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/haml-4.0.6/bin/haml" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/haml-4.0.6/bin/haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/haml-4.0.6/lib/haml/helpers.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/haml-4.0.6/lib/haml/helpers.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/js/highlight.pack.js" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/js/highlight.pack.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/importer_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/importer_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/teams/index.html.erb" afterPath="$PROJECT_DIR$/app/views/teams/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/panel/index.html" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/panel/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/index.rhtml" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/index.rhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/erubis-2.7.0/contrib/inline-require" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/erubis-2.7.0/contrib/inline-require" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/json-1.8.2/install.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/json-1.8.2/install.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/js/jquery-1.3.2.min.js" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/js/jquery-1.3.2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/js/jquery-effect.js" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/js/jquery-effect.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rack-1.6.0/test/cgi/lighttpd.conf" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rack-1.6.0/test/cgi/lighttpd.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debugger-linecache-1.2.0/lib/linecache19.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debugger-linecache-1.2.0/lib/linecache19.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debugger-linecache-1.2.0/test/lnum-diag.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debugger-linecache-1.2.0/test/lnum-diag.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/logger_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/logger_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/css/main.css" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/js/main.js" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/util/multibyte_string_scanner_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/util/multibyte_string_scanner_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/bootstrap-sass-3.3.3/test/node_sass_compile_test.sh" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/bootstrap-sass-3.3.3/test/node_sass_compile_test.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/nokogiri" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/nokogiri" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/nokogiri-1.6.6.2/bin/nokogiri" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/nokogiri-1.6.6.2/bin/nokogiri" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/util/normalized_map_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/util/normalized_map_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/css/panel.css" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/css/panel.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debugger-linecache-1.2.0/test/parse-show.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debugger-linecache-1.2.0/test/parse-show.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/plugin_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/plugin_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/rackup" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/rackup" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rack-1.6.0/bin/rackup" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rack-1.6.0/bin/rackup" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rack-1.6.0/test/cgi/rackup_stub.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rack-1.6.0/test/cgi/rackup_stub.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/rails" afterPath="$PROJECT_DIR$/bin/rails" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/rails" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/rails" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/railties-4.2.0/bin/rails" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/railties-4.2.0/bin/rails" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/web-console-2.1.0/test/dummy/bin/rails" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/web-console-2.1.0/test/dummy/bin/rails" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rake-10.4.2/doc/release_notes/rake-0.7.3.rdoc" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rake-10.4.2/doc/release_notes/rake-0.7.3.rdoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/rake" afterPath="$PROJECT_DIR$/bin/rake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/rake" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/rake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rake-10.4.2/bin/rake" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rake-10.4.2/bin/rake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/web-console-2.1.0/test/dummy/bin/rake" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/web-console-2.1.0/test/dummy/bin/rake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/rdoc" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/rdoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rdoc-4.2.0/bin/rdoc" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rdoc-4.2.0/bin/rdoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/css/reset.css" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/css/reset.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rails-4.2.0/guides/assets/stylesheets/responsive-tables.css" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rails-4.2.0/guides/assets/stylesheets/responsive-tables.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rails-4.2.0/guides/assets/javascripts/responsive-tables.js" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rails-4.2.0/guides/assets/javascripts/responsive-tables.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/ri" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/ri" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rdoc-4.2.0/bin/ri" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rdoc-4.2.0/bin/ri" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/scss/rx_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/scss/rx_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rack-1.6.0/test/cgi/sample_rackup.ru" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rack-1.6.0/test/cgi/sample_rackup.ru" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/sass-convert" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/sass-convert" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/bin/sass-convert" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/bin/sass-convert" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/sass" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/bin/sass" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/bin/sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/thor-0.19.1/spec/fixtures/preserve/script.sh" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/thor-0.19.1/spec/fixtures/preserve/script.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/thor-0.19.1/spec/sandbox/preserve/script.sh" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/thor-0.19.1/spec/sandbox/preserve/script.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/script_conversion_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/script_conversion_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/script_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/script_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/scss" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/bin/scss" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/bin/scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/scss/scss_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/scss/scss_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/sdoc-merge" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/sdoc-merge" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/bin/sdoc-merge" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/bin/sdoc-merge" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/sdoc" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/sdoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/bin/sdoc" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/bin/sdoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/js/searchdoc.js" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/js/searchdoc.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/json-1.8.2/tools/server.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/json-1.8.2/tools/server.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/sessions_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/sessions_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/setup" afterPath="$PROJECT_DIR$/bin/setup" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rails-4.2.0/guides/assets/stylesheets/syntaxhighlighter/shThemeMDUltra.css" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rails-4.2.0/guides/assets/stylesheets/syntaxhighlighter/shThemeMDUltra.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/teams/show.html.erb" afterPath="$PROJECT_DIR$/app/views/teams/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/show.html.erb" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/source_map_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/source_map_test.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/spring" afterPath="$PROJECT_DIR$/bin/spring" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/spring" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/spring" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/spring-1.3.3/bin/spring" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/spring-1.3.3/bin/spring" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/sprockets" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/sprockets" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sprockets-2.12.3/bin/sprockets" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sprockets-2.12.3/bin/sprockets" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/util/subset_map_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/util/subset_map_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/superselector_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/superselector_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/teams_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/teams_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/columnize-0.9.0/test/test-columnize-array.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/columnize-0.9.0/test/test-columnize-array.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/columnize-0.9.0/test/test-columnize.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/columnize-0.9.0/test/test-columnize.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/columnize-0.9.0/test/test-columnizer.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/columnize-0.9.0/test/test-columnizer.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/columnize-0.9.0/test/test-hashparm.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/columnize-0.9.0/test/test-hashparm.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/columnize-0.9.0/test/test-issue3.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/columnize-0.9.0/test/test-issue3.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debugger-linecache-1.2.0/test/test-linecache.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debugger-linecache-1.2.0/test/test-linecache.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debugger-linecache-1.2.0/test/test-lnum.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debugger-linecache-1.2.0/test/test-lnum.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/columnize-0.9.0/test/test-min_rows_and_colwidths.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/columnize-0.9.0/test/test-min_rows_and_colwidths.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debugger-linecache-1.2.0/test/test-tracelines.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debugger-linecache-1.2.0/test/test-tracelines.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rack-1.6.0/test/cgi/test.fcgi" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rack-1.6.0/test/cgi/test.fcgi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rack-1.6.0/test/cgi/test.ru" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rack-1.6.0/test/cgi/test.ru" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rack-1.6.0/test/cgi/test" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rack-1.6.0/test/cgi/test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/nokogiri-1.6.6.2/test_all" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/nokogiri-1.6.6.2/test_all" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/test/test_binding_of_caller.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/test/test_binding_of_caller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/json-1.8.2/tests/test_json.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/json-1.8.2/tests/test_json.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/json-1.8.2/tests/test_json_addition.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/json-1.8.2/tests/test_json_addition.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/json-1.8.2/tests/test_json_fixtures.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/json-1.8.2/tests/test_json_fixtures.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/json-1.8.2/tests/test_json_generate.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/json-1.8.2/tests/test_json_generate.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/json-1.8.2/tests/test_json_unicode.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/json-1.8.2/tests/test_json_unicode.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/nokogiri-1.6.6.2/test/namespaces/test_namespaces_preservation.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/nokogiri-1.6.6.2/test/namespaces/test_namespaces_preservation.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/loofah-2.0.1/test/html5/test_sanitizer.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/loofah-2.0.1/test/html5/test_sanitizer.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/thor" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/thor" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/thor-0.19.1/bin/thor" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/thor-0.19.1/bin/thor" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/tilt" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/tilt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/tilt-1.4.1/bin/tilt" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/tilt-1.4.1/bin/tilt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debugger-linecache-1.2.0/lib/tracelines19.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debugger-linecache-1.2.0/lib/tracelines19.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/haml-4.0.6/lib/haml/util.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/haml-4.0.6/lib/haml/util.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/util_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/util_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/libv8-3.16.14.7-x86_64-linux/vendor/v8/include/v8-debug.h" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/libv8-3.16.14.7-x86_64-linux/vendor/v8/include/v8-debug.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/value_helpers_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/value_helpers_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/lib/binding_of_caller/version.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/lib/binding_of_caller/version.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="Z:\public_html\x_teams\app\assets\stylesheets\scaffolds.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scfss" />
     </list>
     <ignored path="x_teams.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,64 +227,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="about.html.haml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/static_pages/about.html.haml">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/mutants/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="238">
-              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.5648" vertical-offset="4" max-vertical-offset="629">
+              <caret line="21" column="72" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.haml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/sessions/new.html.haml">
+      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/mutants/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="306">
-              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="425">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sessions_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
+      <file leaf-file-name="_form.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/teams/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="595">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sessions_helper.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
+      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/teams/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="425">
+              <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_header.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
+      <file leaf-file-name="teams_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/teams_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="578">
-              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="467" max-vertical-offset="1360">
+              <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/teams/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4439324" vertical-offset="0" max-vertical-offset="651">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="629">
+              <caret line="20" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20150305101306_create_mutants.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20150305101306_create_mutants.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seeds.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -132,22 +315,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/app/helpers/sessions_helper.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/app/helpers/static_pages_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
         <option value="$PROJECT_DIR$/app/models/team.rb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/help.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20150305014354_add_index_to_users.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20150304155715_create_users.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20150304160302_create_teams.rb" />
-        <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/config/initializers/haml.rb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
@@ -156,13 +332,28 @@
         <option value="$PROJECT_DIR$/app/views/sessions/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/help.html.haml" />
         <option value="$PROJECT_DIR$/app/views/static_pages/contact.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/static_pages/about.html.haml" />
         <option value="$PROJECT_DIR$/app/views/sessions/new.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/helpers/sessions_helper.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/static_pages/about.html.haml" />
+        <option value="$PROJECT_DIR$/db/migrate/20150304155715_create_users.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
+        <option value="$PROJECT_DIR$/db/seeds.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20150305101306_create_mutants.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/teams/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/teams_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/teams/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/teams/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/mutants/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/mutants/show.html.erb" />
       </list>
     </option>
   </component>
@@ -198,6 +389,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="RailsProjectView">
         <subPane>
           <PATH>
@@ -371,6 +563,32 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="x_teams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="x_teams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -413,6 +631,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sessions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="x_teams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="x_teams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mutants" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -570,13 +810,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/db/development.sqlite3" />
     <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -682,92 +922,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <method />
-    </configuration>
-    <configuration default="false" name="test: x_teams" type="RakeRunConfigurationType" factoryName="Rake">
-      <module name="x_teams" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="spec: x_teams" type="RakeRunConfigurationType" factoryName="Rake">
-      <module name="x_teams" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Production: x_teams" type="RailsRunConfigurationType" factoryName="Rails">
-      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
-      <module name="x_teams" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Development: x_teams" type="RailsRunConfigurationType" factoryName="Rails">
-      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
-      <module name="x_teams" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
       <method />
     </configuration>
     <list size="4">
@@ -778,6 +938,9 @@
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="992bf18b-6060-4210-8ff3-9c8dfa102f4b" name="Default" comment="" />
@@ -789,25 +952,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25113463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23600605" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -834,38 +997,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config.ru">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="674">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="651">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="651">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/teams_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="651">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://DATABASE/e57d1f95-15dc-4861-bbef-26d39e6cd6ab">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -877,9 +1008,10 @@
           <settings layout="Hierarchic Group" zoom="1.0" x="277.0" y="312.0" />
           <SelectedNodes />
           <Categories>
-            <Category>Key columns</Category>
             <Category>Columns</Category>
+            <Category>Key columns</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -887,7 +1019,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="651">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -895,7 +1026,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="651">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -907,54 +1037,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/teams/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="651">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/teams/index.json.jbuilder">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="651">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/teams/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2448" vertical-offset="0" max-vertical-offset="629">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmp/cache/assets/development/sprockets/1aa16f57f158c89117ca0d0e0dcc85e7">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.361842" vertical-offset="2652" max-vertical-offset="8143">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/teams/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="651">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/log/development.log">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.283699" vertical-offset="7199" max-vertical-offset="7837">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -969,20 +1072,13 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="32.0" y="52.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="32.0" y="53.0" />
           <SelectedNodes />
           <Categories>
-            <Category>Association fields</Category>
             <Category>Migration fields</Category>
+            <Category>Association fields</Category>
           </Categories>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -990,7 +1086,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="651">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -998,7 +1093,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="651">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1006,7 +1100,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="651">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1014,7 +1107,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="651">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1026,19 +1118,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/static_pages_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.052227344" vertical-offset="0" max-vertical-offset="651">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3655914" vertical-offset="0" max-vertical-offset="651">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1046,23 +1129,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="651">
           <caret line="0" column="24" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1292">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/teams_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39170507" vertical-offset="0" max-vertical-offset="1360">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,39 +1136,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
           <caret line="2" column="72" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="651">
-          <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20150304160302_create_teams.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15668203" vertical-offset="0" max-vertical-offset="651">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20150304155715_create_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1827957" vertical-offset="0" max-vertical-offset="651">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20150305014354_add_index_to_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.052227344" vertical-offset="0" max-vertical-offset="651">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1110,7 +1143,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
           <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1118,7 +1150,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="651">
           <caret line="0" column="40" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1126,7 +1157,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0816" vertical-offset="0" max-vertical-offset="625">
           <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1134,7 +1164,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="625">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1142,31 +1171,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="625">
           <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scfss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="624" max-vertical-offset="1275">
-          <caret line="68" column="1" selection-start-line="36" selection-start-column="0" selection-end-line="68" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1360">
-          <caret line="44" column="81" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.73077" vertical-offset="1993" max-vertical-offset="2686">
-          <caret line="152" column="1" selection-start-line="152" selection-start-column="1" selection-end-line="152" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1174,25 +1178,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="625">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/static_pages/about.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="625">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="527">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding>
-            <marker date="1425544529474" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1200,7 +1185,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.4362519" vertical-offset="284" max-vertical-offset="1445">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1208,39 +1192,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="306">
           <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="651">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="578">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1248,9 +1199,213 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4439324" vertical-offset="0" max-vertical-offset="651">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.615385" vertical-offset="1942" max-vertical-offset="2686">
+          <caret line="132" column="15" selection-start-line="132" selection-start-column="15" selection-end-line="132" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/static_pages_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages/about.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2176" vertical-offset="0" max-vertical-offset="625">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150304155715_create_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13056836" vertical-offset="0" max-vertical-offset="651">
+          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2611367" vertical-offset="0" max-vertical-offset="651">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.61904764" vertical-offset="641" max-vertical-offset="1292">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39170507" vertical-offset="0" max-vertical-offset="651">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="578">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/mutant.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="651">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150304160302_create_teams.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150305101306_create_mutants.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/mutants_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.052227344" vertical-offset="0" max-vertical-offset="651">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/mutants/show.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="651">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4352" vertical-offset="0" max-vertical-offset="625">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <marker date="1425544529474" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/teams_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="467" max-vertical-offset="1360">
+          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/teams/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="629">
+          <caret line="20" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/teams/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="651">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/teams/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="625">
+          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/teams/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="595">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/mutants/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="425">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/mutants/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5648" vertical-offset="4" max-vertical-offset="629">
+          <caret line="21" column="72" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
+          <folding />
         </state>
       </provider>
     </entry>

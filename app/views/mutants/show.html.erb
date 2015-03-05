@@ -1,0 +1,19 @@
+<% provide(:title, 'Mutant') %>
+<h1>Mutant</h1>
+<p>
+  <strong>Mutant Name:</strong>
+  <%= @mutant.mutant_name %>
+</p>
+
+<p>
+  <strong>Real Name:</strong>
+  <%= @mutant.description %>
+</p>
+
+<p>
+  <strong>Alias:</strong>
+  <%= @mutant.alias %>
+</p>
+
+<%= link_to 'Edit', edit_mutant_path(@mutant) %> |
+<%= link_to 'Back', mutants_path %>
