@@ -1,0 +1,12 @@
+/usr/local/rvm/rubies/ruby-2.1.0/bin/ruby extconf.rb 
+
+make "DESTDIR=" clean
+make: *** No hay ninguna regla para construir el objetivo `clean'.  Alto.
+
+make "DESTDIR="
+echo "Nada."
+Nada.
+
+make "DESTDIR=" install
+echo "Nada."
+Nada.
