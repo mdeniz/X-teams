@@ -11,7 +11,10 @@
     </div>
   <% end %>
 
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+    <div class="actions btn-group" role="group" aria-label="...">
+      <%= f.submit class: "btn btn-primary" %>
+          <%= link_to mutants_path,  class: "btn btn-success", role: "button" do %>
+              <span class="glyphicon glyphicon-th-list"></span> Back to the List
+          <% end %>
+    </div>
 <% end %>

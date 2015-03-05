@@ -1,10 +1,5 @@
 <% provide(:title, 'Mutant') %>
-<h1>Mutant</h1>
-<p>
-  <strong>Mutant Name:</strong>
-  <%= @mutant.mutant_name %>
-</p>
-
+<h1>Mutant <span class="model_name">"<%= @mutant.mutant_name %>"</span></h1>
 <p>
   <strong>Real Name:</strong>
   <%= @mutant.description %>
@@ -15,5 +10,11 @@
   <%= @mutant.alias %>
 </p>
 
-<%= link_to 'Edit', edit_mutant_path(@mutant) %> |
-<%= link_to 'Back', mutants_path %>
+<div class="btn-group" role="group" aria-label="...">
+<%= link_to edit_mutant_path(@mutant) , class: "btn btn-primary", role: "button"  do %>
+      <span class="glyphicon glyphicon-pencil"></span> Edit this Mutant
+  <% end %>
+<%= link_to mutants_path ,  class: "btn btn-success", role: "button" do %>
+    <span class="glyphicon glyphicon-th-list"></span> Back to the List
+<% end %>
+</div>

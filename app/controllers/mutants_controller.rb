@@ -28,7 +28,7 @@ class MutantsController < ApplicationController
 
     respond_to do |format|
       if @mutant.save
-        format.html { redirect_to @mutant, notice: 'Mutant was successfully created.' }
+        format.html { flash[:success] = 'Mutant was successfully created.'; redirect_to @mutant }
         format.json { render :show, status: :created, location: @mutant }
       else
         format.html { render :new }
@@ -42,7 +42,7 @@ class MutantsController < ApplicationController
   def update
     respond_to do |format|
       if @mutant.update(mutant_params)
-        format.html { redirect_to @mutant, notice: 'Mutant was successfully updated.' }
+        format.html { flash[:success] = 'Mutant was successfully updated.'; redirect_to @mutant }
         format.json { render :show, status: :ok, location: @mutant }
       else
         format.html { render :edit }
@@ -56,7 +56,7 @@ class MutantsController < ApplicationController
   def destroy
     @mutant.destroy
     respond_to do |format|
-      format.html { redirect_to mutants_url, notice: 'Mutant was successfully destroyed.' }
+      format.html { flash[:success] = 'Mutant was successfully destroyed..'; redirect_to mutants_url }
       format.json { head :no_content }
     end
   end

@@ -1,10 +1,5 @@
 <% provide(:title, 'Team') %>
-<h1>Team</h1>
-<p>
-  <strong>Name:</strong>
-  <%= @team.name %>
-</p>
-
+<h1>Team <span class="model_name">"<%= @team.name %>"</span></h1>
 <p>
   <strong>Description:</strong>
   <%= @team.description %>
@@ -15,5 +10,12 @@
   <%= @team.enabled %>
 </p>
 
-<%= link_to 'Edit', edit_team_path(@team) %> |
-<%= link_to 'Back', teams_path %>
+
+<div class="btn-group" role="group" aria-label="...">
+  <%= link_to edit_team_path(@team) , class: "btn btn-primary", role: "button"  do %>
+      <span class="glyphicon glyphicon-pencil"></span> Edit this Team
+  <% end %>
+  <%= link_to teams_path,  class: "btn btn-success", role: "button" do %>
+      <span class="glyphicon glyphicon-th-list"></span> Back to the List
+  <% end %>
+</div>
