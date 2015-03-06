@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="992bf18b-6060-4210-8ff3-9c8dfa102f4b" name="Default" comment="">
-      <change type="DELETED" beforePath="Z:\public_html\x_teams\app\assets\images\profiles\cyclops.jpg" afterPath="" />
-      <change type="DELETED" beforePath="Z:\public_html\x_teams\app\assets\images\profiles\wolwerine.jpg" afterPath="" />
-      <change type="DELETED" beforePath="Z:\public_html\x_teams\app\assets\images\profiles\xavier.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/.gemtest" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/.gemtest" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/HISTORY" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/HISTORY" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/i/arrows.png" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/i/arrows.png" />
@@ -32,18 +29,14 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/i/tree_bg.png" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/i/tree_bg.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/.gitignore" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/.yardopts" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/.yardopts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20150304160302_create_teams.rb" afterPath="$PROJECT_DIR$/db/migrate/20150304160302_create_teams.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/LICENSE" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/LICENSE" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/README.md" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/Rakefile" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/Rakefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debug_inspector-0.0.2/Rakefile" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debug_inspector-0.0.2/Rakefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/_context.rhtml" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/_context.rhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_mini_profile.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_mini_profile.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/mutants/_mini_profile_buttons.html.erb" afterPath="$PROJECT_DIR$/app/views/mutants/_mini_profile_buttons.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/teams/_mini_profile_buttons.html.erb" afterPath="$PROJECT_DIR$/app/views/teams/_mini_profile_buttons.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/about.html.haml" afterPath="$PROJECT_DIR$/app/views/static_pages/about.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/mutants/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/mutants/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/teams/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/teams/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/thread_safe-0.3.4/examples/bench_cache.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/thread_safe-0.3.4/examples/bench_cache.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/loofah-2.0.1/benchmark/benchmark.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/loofah-2.0.1/benchmark/benchmark.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debugger-linecache-1.2.0/test/data/block1.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debugger-linecache-1.2.0/test/data/block1.rb" />
@@ -93,8 +86,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/css/main.css" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/js/main.js" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/util/multibyte_string_scanner_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/util/multibyte_string_scanner_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/mutant.rb" afterPath="$PROJECT_DIR$/app/models/mutant.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/mutants_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/mutants_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/bootstrap-sass-3.3.3/test/node_sass_compile_test.sh" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/bootstrap-sass-3.3.3/test/node_sass_compile_test.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/nokogiri" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/nokogiri" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/nokogiri-1.6.6.2/bin/nokogiri" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/nokogiri-1.6.6.2/bin/nokogiri" />
@@ -102,7 +93,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/css/panel.css" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/css/panel.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debugger-linecache-1.2.0/test/parse-show.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debugger-linecache-1.2.0/test/parse-show.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/plugin_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/plugin_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/profile.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/profile.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/rackup" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/rackup" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rack-1.6.0/bin/rackup" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rack-1.6.0/bin/rackup" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rack-1.6.0/test/cgi/rackup_stub.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rack-1.6.0/test/cgi/rackup_stub.rb" />
@@ -128,7 +118,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/bin/sass-convert" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/bin/sass-convert" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/sass" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/bin/sass" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/bin/sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/thor-0.19.1/spec/fixtures/preserve/script.sh" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/thor-0.19.1/spec/fixtures/preserve/script.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/thor-0.19.1/spec/sandbox/preserve/script.sh" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/thor-0.19.1/spec/sandbox/preserve/script.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/script_conversion_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/script_conversion_test.rb" />
@@ -141,7 +130,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/sdoc" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/bin/sdoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/bin/sdoc" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/bin/sdoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/js/searchdoc.js" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/js/searchdoc.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/json-1.8.2/tools/server.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/json-1.8.2/tools/server.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/setup" afterPath="$PROJECT_DIR$/bin/setup" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rails-4.2.0/guides/assets/stylesheets/syntaxhighlighter/shThemeMDUltra.css" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/rails-4.2.0/guides/assets/stylesheets/syntaxhighlighter/shThemeMDUltra.css" />
@@ -153,9 +141,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sprockets-2.12.3/bin/sprockets" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sprockets-2.12.3/bin/sprockets" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/util/subset_map_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/util/subset_map_test.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/superselector_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/superselector_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/team.rb" afterPath="$PROJECT_DIR$/app/models/team.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/teams.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/teams.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/teams_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/teams_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/columnize-0.9.0/test/test-columnize-array.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/columnize-0.9.0/test/test-columnize-array.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/columnize-0.9.0/test/test-columnize.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/columnize-0.9.0/test/test-columnize.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/columnize-0.9.0/test/test-columnizer.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/columnize-0.9.0/test/test-columnizer.rb" />
@@ -224,38 +209,7 @@
     <favorites_list name="x_teams" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="_mini_profile_buttons.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/teams/_mini_profile_buttons.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="272">
-              <caret line="7" column="97" selection-start-line="7" selection-start-column="91" selection-end-line="7" selection-end-column="97" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_mini_profile.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/shared/_mini_profile.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="221">
-              <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_mini_profile_buttons.html.erb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/mutants/_mini_profile_buttons.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.272" vertical-offset="0" max-vertical-offset="625">
-              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -273,16 +227,13 @@
         <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/teams/edit.html.erb" />
         <option value="$PROJECT_DIR$/config/locales/en.yml" />
-        <option value="$PROJECT_DIR$/app/views/teams/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/teams/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/mutants/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/mutants/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/mutants/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/teams/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/mutants/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/sessions/new.html.haml" />
         <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20150305101306_create_mutants.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
@@ -307,13 +258,16 @@
         <option value="$PROJECT_DIR$/app/models/team.rb" />
         <option value="$PROJECT_DIR$/app/views/shared/profile.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application_start.coffee" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/about.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/static_pages/contact.html.haml" />
         <option value="$PROJECT_DIR$/app/views/teams/_mini_profile_buttons.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_mini_profile.html.erb" />
         <option value="$PROJECT_DIR$/app/views/mutants/_mini_profile_buttons.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/static_pages/contact.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/mutants/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/teams/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -919,7 +873,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -932,7 +886,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23903178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23903178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1046,13 +1000,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0544" vertical-offset="0" max-vertical-offset="625">
           <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/teams/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0816" vertical-offset="0" max-vertical-offset="625">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1060,6 +1008,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0544" vertical-offset="0" max-vertical-offset="625">
           <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1067,20 +1016,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0544" vertical-offset="0" max-vertical-offset="625">
           <caret line="2" column="20" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/teams/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.461538" vertical-offset="4" max-vertical-offset="646">
-          <caret line="30" column="10" selection-start-line="25" selection-start-column="3" selection-end-line="30" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/mutants/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="442">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1096,14 +1032,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3264" vertical-offset="0" max-vertical-offset="625">
           <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="527">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1255,14 +1183,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/static_pages/contact.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5984" vertical-offset="0" max-vertical-offset="625">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/about.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1088" vertical-offset="0" max-vertical-offset="625">
@@ -1275,14 +1195,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.2992" vertical-offset="221" max-vertical-offset="952">
           <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6192" vertical-offset="2520" max-vertical-offset="3145">
-          <caret line="171" column="14" selection-start-line="171" selection-start-column="14" selection-end-line="171" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1327,26 +1239,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/teams/_mini_profile_buttons.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/mutants/_mini_profile_buttons.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="272">
-          <caret line="7" column="97" selection-start-line="7" selection-start-column="91" selection-end-line="7" selection-end-column="97" />
+        <state vertical-scroll-proportion="0.272" vertical-offset="0" max-vertical-offset="625">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/_mini_profile.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="221">
+        <state vertical-scroll-proportion="0.0544" vertical-offset="0" max-vertical-offset="625">
           <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/mutants/_mini_profile_buttons.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/teams/_mini_profile_buttons.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.272" vertical-offset="0" max-vertical-offset="625">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.1904" vertical-offset="0" max-vertical-offset="625">
+          <caret line="7" column="97" selection-start-line="7" selection-start-column="91" selection-end-line="7" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/teams/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0816" vertical-offset="0" max-vertical-offset="625">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages/contact.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0272" vertical-offset="0" max-vertical-offset="625">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/teams/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7072" vertical-offset="0" max-vertical-offset="646">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4624" vertical-offset="0" max-vertical-offset="625">
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+          <folding>
+            <marker date="1425649134378" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.5696" vertical-offset="0" max-vertical-offset="3264">
+          <caret line="168" column="26" selection-start-line="168" selection-start-column="26" selection-end-line="168" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/mutants/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3808" vertical-offset="0" max-vertical-offset="625">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="42" />
           <folding />
         </state>
       </provider>
