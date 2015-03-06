@@ -7,7 +7,26 @@ User.create(
 )
 
 # Creating some Teams
+Team.create(
+    name: 'X-Men',
+    image: 'xmen.jpg',
+    description: 'Description',
+    enabled: true
+)
 
+Team.create(
+    name: 'X-Men2',
+    image: 'xmen.jpg',
+    description: 'Description',
+    enabled: true
+)
+
+Team.create(
+    name: 'X-Men3',
+    image: 'xmen.jpg',
+    description: 'Description',
+    enabled: true
+)
 
 # Creating some Mutants
 Mutant.create(

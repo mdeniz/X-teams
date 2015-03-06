@@ -10,6 +10,8 @@ class TeamsController < ApplicationController
   # GET /teams/1
   # GET /teams/1.json
   def show
+    @profile = @team.as_profile
+    render 'shared/profile'
   end
 
   # GET /teams/new

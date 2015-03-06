@@ -9,8 +9,8 @@ class Team < ActiveRecord::Base
 
   def as_profile
     data = self.attributes
-    data['class'] = 'user'
-    data['image'] = 'profiles/xavier.jpg'
+    data['class'] = 'team'
+    data['image'] = data['image'].nil? ? nil : 'profiles/teams/' + data['image'].to_s
     data['real_name'] = data['name']
     data['name'] = 'Professor X'
     data['aliases'] = 'Doctor X, Professor Xavier, formerly Prisoner M-13'
@@ -26,7 +26,8 @@ class Team < ActiveRecord::Base
         'Telepathy',
         'Read Minds',
     ]
-    data['biography'] = ''
+    data['biography'] = data['description']
+    data['more_info_link'] = nil
     data
   end
 

@@ -1,8 +1,7 @@
-<div class="thumbnail center col-xs-6 col-sm-4 col-md-2">
+<div class="thumbnail center col-xs-6 col-sm-4 col-md-2 hatch" profile="true">
     <h4><%= profile['name'] %></h4>
     <%= image_tag profile['image'] %>
     <div class="caption">
-      <%= profile['real_name'] %><br/>
       <%= render partial: 'mini_profile_buttons', locals: {:entity => entity} %>
     </div>
     </div>

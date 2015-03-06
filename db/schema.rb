@@ -57,6 +57,7 @@ ActiveRecord::Schema.define(version: 20150306000759) do
 
   create_table "teams", force: :cascade do |t|
     t.string   "name"
+    t.string   "image"
     t.text     "description"
     t.boolean  "enabled"
     t.datetime "created_at",  null: false

@@ -165,3 +165,16 @@ header {
   color: rgb(244, 244, 244);
   text-align: center;
 }
+
+.thumbnail.hovering {
+  background-color: rgba(45, 110, 139, 0.5);
+  border: 0px solid transparent;
+  padding: 1em;
+  color: white;
+}
+
+
+.thumbnail {
+  transition: all 0.5s ease;
+  background-color: rgba(255, 255, 255, 0.7);
+}

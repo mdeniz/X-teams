@@ -1,20 +1,31 @@
 <% provide(:title, 'Profile') %>
 <div class="row">
   <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
+    <div class="thumbnail slideRight">
       <h1><%= @profile['name'] %></h1>
       <%= image_tag @profile['image']%>
       <div class="caption">
         <% if @profile['class'] == "mutant" %>
             <div class="container">
-            <div class="btn-group" role="group" aria-label="...">
-              <%= link_to edit_mutant_path(@mutant) , class: "btn btn-primary", role: "button"  do %>
-                  <span class="glyphicon glyphicon-pencil"></span> Edit this Mutant
-              <% end %>
-              <%= link_to mutants_path ,  class: "btn btn-success", role: "button" do %>
-                  <span class="glyphicon glyphicon-th-list"></span> Back to the List
-              <% end %>
+                <div class="btn-group" role="group" aria-label="...">
+                  <%= link_to edit_mutant_path(@mutant) , class: "btn btn-primary", role: "button"  do %>
+                      <span class="glyphicon glyphicon-pencil"></span> Edit this Mutant
+                  <% end %>
+                  <%= link_to mutants_path ,  class: "btn btn-success", role: "button" do %>
+                      <span class="glyphicon glyphicon-th-list"></span> Back to Mutants
+                  <% end %>
+                </div>
             </div>
+        <% elsif @profile['class'] == "team"%>
+            <div class="container">
+              <div class="btn-group" role="group" aria-label="...">
+                <%= link_to edit_team_path(@team) , class: "btn btn-primary", role: "button"  do %>
+                    <span class="glyphicon glyphicon-pencil"></span> Edit this Team
+                <% end %>
+                <%= link_to teams_path ,  class: "btn btn-success", role: "button" do %>
+                    <span class="glyphicon glyphicon-th-list"></span> Back to Teams
+                <% end %>
+              </div>
             </div>
         <% end %>
         <h3 class="model_name"><%= @profile['real_name'] %></h3>
@@ -24,6 +35,7 @@
             <%= @profile['aliases'] %>
           </li>
         </ul>
+        <% if @profile['class'] == "mutant" %>
         <h4>Info</h4>
         <ul class="list-group">
           <li class="list-group-item">
@@ -35,6 +47,7 @@
             Identity
           </li>
         </ul>
+        <% end %>
         <h4>Contact</h4>
         <ul class="list-group">
           <li class="list-group-item">
@@ -49,7 +62,8 @@
     </div>
   </div>
   <div class="col-sm-6 col-md-8">
-    <div class="row jumbotron">
+    <div class="row jumbotron slideLeft">
+      <% if @profile['class'] == "mutant" %>
       <h3>Physical attributes</h3>
       <div class="row">
         <div class="col-sm-8 col-md-6">
@@ -79,14 +93,17 @@
             Hair
           </li>
         </div>
-      </div>
+      </div
+      <% end %>
       <h3>Powers <span class="badge"><%= @profile['powers'].length %></span></h3>
       <% @profile['powers'].each_with_index do |power, i| %>
           <%= raw show_tag(power, i)%>
       <% end %>
       <h3>Biography</h3>
       <%= raw @profile['biography'] %>
+      <% unless @profile['more_info_link'].nil? %>
       <br/><br/>More at <%= link_to @profile['more_info_link'], @profile['more_info_link'], :target => '_blank' %>
+      <% end %>
     </div>
 
   </div>
