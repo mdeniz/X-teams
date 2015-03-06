@@ -1,37 +1,10 @@
-<h1>Listing Mutants</h1>
-
-<table class="table">
-  <thead>
-    <tr>
-      <th>Picture</th>
-      <th>Mutant Name</th>
-      <th>Alias</th>
-      <th>Real Name</th>
-      <th></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @mutants.each do |mutant| %>
-      <tr>
-        <td class="col-md-1"><%= image_tag mutant.as_profile['image'], height: 80 %></td>
-        <td class="col-md-3"><%= mutant.name %></td>
-        <td class="col-md-3"><%= mutant.aliases %></td>
-        <td class="col-md-3"><%= mutant.real_name %></td>
-        <td class="col-md-2">
-          <div class="btn-group" role="group" aria-label="...">
-            <%= link_to mutant , class: "btn btn-success", role: "button"  do %>
-                <span class="glyphicon glyphicon-eye-open"></span>
-            <% end %>
-            <%= link_to edit_mutant_path(mutant) , class: "btn btn-primary", role: "button"  do %>
-                <span class="glyphicon glyphicon-pencil"></span>
-            <% end %>
-            <%= link_to mutant , method: :delete, data: { confirm: 'Are you sure?' },  class: "btn btn-danger", role: "button" do %>
-                <span class="glyphicon glyphicon-remove"></span>
-            <% end %>
-          </div>
-        </td>
-      </tr>
+<h1>Mutants</h1>
+<table>
+  <tr>
+    <td>
+      <% @mutants.each do |mutant| %>
+        <%= render partial: 'shared/mini_profile', locals: { :profile => mutant.as_profile, :entity => mutant} %>
     <% end %>
-  </tbody>
+    </td>
+  </tr>
 </table>

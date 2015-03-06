@@ -1,8 +1,43 @@
 # Creating the Professor X user
-User.create(name: 'Charles Francis Xavier', email: 'xavier@xmen.com', password: 'professor', password_confirmation: 'professor')
+User.create(
+    name: 'Charles Francis Xavier',
+    email: 'xavier@xmen.com',
+    password: 'professor',
+    password_confirmation: 'professor'
+)
+
+# Creating some Teams
+
 
 # Creating some Mutants
-w = Mutant.create(
+Mutant.create(
+    name: "Professor X",
+    aliases: 'Doctor X, Professor Xavier, formerly Prisoner M-13',
+    real_name: "Charles Francis Xavier",
+    image: 'xavier.jpg',
+    email: 'xavier@xmen.com',
+    mobile: '+34 XXX.XXX.XXX',
+    place_of_birth: "New York City, New York",
+    identity: 'Publicly knowns',
+    biography: "Charles Francis Xavier was born the son of nuclear researcher Brian Xavier and his wife, Sharon. Following her husband's accidental death, Sharon married Brian's colleague, Kurt Marko. Cain, Kurt's son by a previous marriage, came to live at the Xavier’s Westchester mansion shortly thereafter. A cruel and spiteful boy, he bullied his new stepbrother. As punishment, his father secretly beat him - and young Charles felt his sibling's pain firsthand thanks to the emergence of his mutant telepathic powers. Following their mother’s death, a fire in the family home took Kurt’s life, leaving the stepbrothers alone.<br/><br/>
+      By the time he graduated high school, Charles was completely bald as a side effect of his mutant nature. He entered Bard College in New York at age 16 and earned his bachelor's degree in biology within two years. He was then accepted into the graduate-studies program at England's prestigious Oxford University, where he earned degrees in genetics and biophysics. There, Charles met and fell in love with a young Scotswoman named Moira Kinross. Their passionate discussions on the subject of genetic mutation gave way to romance, and they planned to marry. Their only obstacle was Moira's former boyfriend, Joe MacTaggert, a lance corporal in the Royal Marines and a bully, just like Cain. In Joe's eyes, Charles was a good-for-nothing intellectual, so Charles enlisted in the military after completing his studies at Oxford to validate himself in terms his rival would understand.",
+    height: 182,
+    weight: 86,
+    eyes: "Blue",
+    hair: "Bald (blond during childhood)",
+    skintone: "White",
+    more_info_link: 'http://marvel.com/universe/Professor_X',
+    powers: [
+        'Telepathy',
+        'Read Minds',
+        'Project his own thoughts',
+        'Manipulate Minds',
+        'Induce mental/physical paralysis',
+        'Induce lost of memory',
+        'Induce total amnesia'
+    ]
+)
+Mutant.create(
     name: "Wolwerine",
     aliases: "Logan, formerly Weapon Ten, Death, Mutate #9601, Jim Logan, Patch, Canucklehead, Emilio Garra, Weapon Chi, Weapon X, Experiment X, Agent Ten, Canada, Wildboy, Peter Richards, many others",
     real_name: "James Howlett",
@@ -18,15 +53,15 @@ w = Mutant.create(
     eyes: "Blue",
     hair: "Black",
     skintone: "White",
-    more_info_link: 'http://marvel.com/universe/Wolverine_(James_Howlett)'
+    more_info_link: 'http://marvel.com/universe/Wolverine_(James_Howlett)',
+    powers: [
+    'Adamantium skeleton',
+    'Retractable one-foot long bone claws',
+    'Superhumanly acute senses',
+    'Immunity to poisons',
+    'Enhanced resistance to diseases'
+    ]
 )
-
-w.powers.add('Adamantium skeleton')
-w.powers.add('Retractable one-foot long bone claws')
-w.powers.add('Superhumanly acute senses')
-w.powers.add('Immunity to poisons')
-w.powers.add('Enhanced resistance to diseases')
-w.save!
 
 Mutant.create(
     name: "Cyclops",

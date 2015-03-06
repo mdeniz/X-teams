@@ -1,37 +1,10 @@
-<p id="notice"><%= notice %></p>
-
-<h1>Listing Teams</h1>
-
-<table class="table">
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Description</th>
-      <th>Enabled</th>
-      <th></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @teams.each do |team| %>
-      <tr>
-        <td class="col-md-4"><%= team.name %></td>
-        <td class="col-md-3"><%= team.description %></td>
-        <td class="col-md-3"><span class="glyphicon glyphicon-<%= team.enabled ? "ok" : "remove"%>"></span></td>
-        <td class="col-md-2">
-          <div class="btn-group" role="group" aria-label="...">
-            <%= link_to team , class: "btn btn-success", role: "button"  do %>
-                <span class="glyphicon glyphicon-eye-open"></span>
-            <% end %>
-            <%= link_to edit_team_path(team) , class: "btn btn-primary", role: "button"  do %>
-                <span class="glyphicon glyphicon-pencil"></span>
-            <% end %>
-            <%= link_to team, method: :delete, data: { confirm: 'Are you sure?' },  class: "btn btn-danger", role: "button" do %>
-                <span class="glyphicon glyphicon-remove"></span>
-            <% end %>
-          </div>
-        </td>
-      </tr>
-    <% end %>
-  </tbody>
+<h1>Teams</h1>
+<table>
+  <tr>
+    <td>
+      <% @teams.each do |team| %>
+          <%= render partial: 'shared/mini_profile', locals: { :profile => team.as_profile, :entity => team} %>
+      <% end %>
+    </td>
+  </tr>
 </table>

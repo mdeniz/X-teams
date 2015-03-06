@@ -22,5 +22,12 @@ module XTeams
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+
+    @@tag_colors = ['default', 'primary', 'success', 'warning', 'danger', 'info']
+
+    def self.getTagColor(i)
+      @@tag_colors[i % @@tag_colors.length]
+    end
+
   end
 end

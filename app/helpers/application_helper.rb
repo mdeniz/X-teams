@@ -11,6 +11,10 @@ module ApplicationHelper
   end
 
   def moises_deniz_aleman
-    link_to "Moisés Déniz Alemán", 'http://www.moisesdeniz.com', :target => '_blank'
+    link_to "Moisés Déniz Alemán", contact_path
+  end
+
+  def show_tag(power, i)
+    "<span class=\"label label-#{XTeams::Application.getTagColor(i)}\">#{power}</span>"
   end
 end

@@ -81,11 +81,11 @@ footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid $gray-medium-light;
-  color: $gray-light;
+  color: $gray;
   a {
-    color: $gray;
+    color: #1A1A1A;
     &:hover {
-      color: $gray-darker;
+      color: white;
     }
   }
   small {
@@ -150,4 +150,18 @@ header {
     font-size: 12px;
     list-style: square;
   }
+}
+
+/* Tables */
+.table > tbody > tr > td, .table > tfoot > tr > th, .table > tfoot > tr > td {
+  border-top: 1px solid #A1A1A1;
+  background-color: rgba(244, 244, 244, 0.8);
+}
+
+.table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #343434;
+  background-color: rgba(58, 58, 58, 0.5);
+  color: rgb(244, 244, 244);
+  text-align: center;
 }

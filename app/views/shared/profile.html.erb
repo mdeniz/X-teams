@@ -6,6 +6,7 @@
       <%= image_tag @profile['image']%>
       <div class="caption">
         <% if @profile['class'] == "mutant" %>
+            <div class="container">
             <div class="btn-group" role="group" aria-label="...">
               <%= link_to edit_mutant_path(@mutant) , class: "btn btn-primary", role: "button"  do %>
                   <span class="glyphicon glyphicon-pencil"></span> Edit this Mutant
@@ -13,6 +14,7 @@
               <%= link_to mutants_path ,  class: "btn btn-success", role: "button" do %>
                   <span class="glyphicon glyphicon-th-list"></span> Back to the List
               <% end %>
+            </div>
             </div>
         <% end %>
         <h3 class="model_name"><%= @profile['real_name'] %></h3>
@@ -80,7 +82,7 @@
       </div>
       <h3>Powers <span class="badge"><%= @profile['powers'].length %></span></h3>
       <% @profile['powers'].each_with_index do |power, i| %>
-          <span class="label label-<%= @tag_colors[i % @tag_colors.length] %>"><%= power %></span>
+          <%= raw show_tag(power, i)%>
       <% end %>
       <h3>Biography</h3>
       <%= raw @profile['biography'] %>
