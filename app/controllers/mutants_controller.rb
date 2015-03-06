@@ -10,6 +10,9 @@ class MutantsController < ApplicationController
   # GET /mutants/1
   # GET /mutants/1.json
   def show
+    @profile = @mutant.as_profile
+    @tag_colors = ['default', 'primary', 'success', 'warning', 'danger', 'info']
+    render 'shared/profile'
   end
 
   # GET /mutants/new

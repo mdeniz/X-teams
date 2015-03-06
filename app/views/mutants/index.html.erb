@@ -3,6 +3,7 @@
 <table class="table">
   <thead>
     <tr>
+      <th>Picture</th>
       <th>Mutant Name</th>
       <th>Alias</th>
       <th>Real Name</th>
@@ -13,8 +14,9 @@
   <tbody>
     <% @mutants.each do |mutant| %>
       <tr>
-        <td class="col-md-4"><%= mutant.mutant_name %></td>
-        <td class="col-md-3"><%= mutant.alias %></td>
+        <td class="col-md-1"><%= image_tag mutant.as_profile['image'], height: 80 %></td>
+        <td class="col-md-3"><%= mutant.name %></td>
+        <td class="col-md-3"><%= mutant.aliases %></td>
         <td class="col-md-3"><%= mutant.real_name %></td>
         <td class="col-md-2">
           <div class="btn-group" role="group" aria-label="...">

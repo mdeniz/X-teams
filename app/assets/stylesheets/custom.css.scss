@@ -30,6 +30,9 @@ textarea {
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
+  .model_name {
+    color: #990000;
+  }
 }
 
 h1 {
@@ -37,9 +40,7 @@ h1 {
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
-  .model_name {
-    color: #990000;
-  }
+
 }
 
 h2 {

@@ -37,8 +37,9 @@ gem 'haml'
 
 gem 'bootstrap-sass'
 
-# Use Acts_as_Tree
+# Use Acts_as_ gems
 gem 'acts_as_tree'
+gem 'acts-as-taggable-on'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

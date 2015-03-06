@@ -11,26 +11,49 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150305101306) do
+ActiveRecord::Schema.define(version: 20150306000759) do
 
   create_table "mutants", force: :cascade do |t|
-    t.string   "mutant_name"
-    t.string   "alias"
+    t.string   "name"
+    t.string   "aliases"
     t.string   "real_name"
-    t.string   "sex"
-    t.string   "skintone"
+    t.string   "image"
+    t.string   "email"
+    t.string   "mobile"
     t.string   "place_of_birth"
-    t.string   "country"
-    t.text     "description"
+    t.string   "identity"
+    t.text     "biography"
     t.integer  "height"
     t.integer  "weight"
     t.string   "eyes"
     t.string   "hair"
+    t.string   "skintone"
+    t.string   "more_info_link"
     t.datetime "created_at",     null: false
     t.datetime "updated_at",     null: false
   end
 
-  add_index "mutants", ["mutant_name"], name: "index_mutants_on_mutant_name", unique: true
+  add_index "mutants", ["name"], name: "index_mutants_on_name", unique: true
+
+  create_table "taggings", force: :cascade do |t|
+    t.integer  "tag_id"
+    t.integer  "taggable_id"
+    t.string   "taggable_type"
+    t.integer  "tagger_id"
+    t.string   "tagger_type"
+    t.string   "context",       limit: 128
+    t.datetime "created_at"
+  end
+
+  add_index "taggings", ["tag_id", "taggable_id", "taggable_type", "context", "tagger_id", "tagger_type"], name: "taggings_idx", unique: true
+  add_index "taggings", ["taggable_id", "taggable_type", "context"], name: "index_taggings_on_taggable_id_and_taggable_type_and_context"
+
+  create_table "tags", force: :cascade do |t|
+    t.string  "name"
+    t.integer "taggings_count", default: 0
+  end
+
+  add_index "tags", ["name"], name: "index_tags_on_name", unique: true
 
   create_table "teams", force: :cascade do |t|
     t.string   "name"
