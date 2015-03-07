@@ -11,7 +11,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150306000759) do
+ActiveRecord::Schema.define(version: 20150307172950) do
+
+  create_table "assignations", force: :cascade do |t|
+    t.integer  "mutant_id"
+    t.integer  "task_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "memberships", force: :cascade do |t|
+    t.integer  "mutant_id"
+    t.integer  "team_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "mutants", force: :cascade do |t|
     t.string   "name"
@@ -55,11 +69,23 @@ ActiveRecord::Schema.define(version: 20150306000759) do
 
   add_index "tags", ["name"], name: "index_tags_on_name", unique: true
 
+  create_table "tasks", force: :cascade do |t|
+    t.integer  "team_id"
+    t.string   "name"
+    t.text     "description"
+    t.date     "start"
+    t.date     "end"
+    t.float    "achieved"
+    t.integer  "priority"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
+
   create_table "teams", force: :cascade do |t|
     t.string   "name"
     t.string   "image"
+    t.string   "email"
     t.text     "description"
-    t.boolean  "enabled"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
   end

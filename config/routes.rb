@@ -10,6 +10,18 @@ Rails.application.routes.draw do
   get 'contact' => 'static_pages#contact'
   get 'help' => 'static_pages#help'
 
-  resources :teams
-  resources :mutants
+  get 'profile', to: 'mutants#show'
+
+  resources :teams do
+    resources :mutants
+    resources :tasks
+  end
+  resources :mutants do
+    resources :teams
+    resources :tasks
+  end
+  resources :tasks do
+    resources :mutants
+    resources :team
+  end
 end

@@ -1,10 +1,8 @@
 <h1>Mutants</h1>
-<table>
-  <tr>
-    <td>
-      <% @mutants.each do |mutant| %>
-        <%= render partial: 'shared/mini_profile', locals: { :profile => mutant.as_profile, :entity => mutant} %>
+<div class="container">
+  <div class="row">
+    <% @mutants.each do |mutant| %>
+        <%= render partial: 'shared/mini_profile', locals: { :entity => mutant, :from => 'mutant'} %>
     <% end %>
-    </td>
-  </tr>
-</table>
+  </div>
+</div>

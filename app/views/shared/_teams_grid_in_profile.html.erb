@@ -1,0 +1,10 @@
+<div role="tabpanel" class="tab-pane" id="teams">
+  <br/>
+  <div class="container">
+    <div class="row">
+        <% teams.each do |team| %>
+            <%= render partial: 'shared/mini_profile', locals: { :entity => team, :from => 'mutant'} %>
+        <% end %>
+    </div>
+  </div>
+</div>

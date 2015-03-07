@@ -4,13 +4,14 @@ class MutantsController < ApplicationController
   # GET /mutants
   # GET /mutants.json
   def index
+    @entity = Mutant.new
     @mutants = Mutant.all
   end
 
   # GET /mutants/1
   # GET /mutants/1.json
   def show
-    @profile = @mutant.as_profile
+    @entity = @mutant
     render 'shared/profile'
   end
 
@@ -66,7 +67,7 @@ class MutantsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_mutant
-      @mutant = Mutant.find(params[:id])
+      @mutant = Mutant.find(params[:id] || 1)
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.

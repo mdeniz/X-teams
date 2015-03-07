@@ -1,11 +1,11 @@
-<div class="btn-group" role="group" aria-label="...">
+<div class="btn-group float_relative" role="group" aria-label="...">
   <%= link_to entity, class: "btn btn-default", role: "button" do %>
       <span class="glyphicon glyphicon-eye-open"></span>
   <% end %>
   <%= link_to edit_mutant_path(entity), class: "btn btn-default", role: "button" do %>
       <span class="glyphicon glyphicon-pencil"></span>
-  <% end %>
+  <% end if @entity.is_a?(Mutant) %>
   <%= link_to entity, method: :delete, data: {confirm: 'Are you sure?' },  class: "btn btn-danger", role: "button" do %>
       <span class="glyphicon glyphicon-remove"></span>
-  <% end unless entity.is_professor_xavier %>
+  <% end if @entity.is_a?(Mutant) && !entity.is_professor_xavier %>
 </div>

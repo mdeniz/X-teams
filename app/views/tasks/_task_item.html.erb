@@ -1,0 +1,33 @@
+<div class="row task_bar">
+  <div class="col-md-6">
+    <div class="row task_bar_title">
+      <%= task.name%>
+    </div>
+    <div class="row task_bar_team">
+      @Team "<%= task.team.name %>"
+    </div>
+  </div>
+  <div class="col-md-1">
+
+  </div>
+  <div class="col-md-1 center">
+    <span class="badge"><%= task.priority%></span>
+  </div>
+  <div class="col-md-3">
+    <div class="progress">
+      <div class="progress-bar<%= task.color %> progress-bar-striped" role="progressbar" aria-valuenow="<%= task.achieved%>" aria-valuemin="0" aria-valuemax="100" style="min-width: 4em; width: <%= task.achieved%>%;">
+        <%= task.achieved%>%
+      </div>
+    </div>
+  </div>
+  <div class="col-md-1">
+    <div class="btn-group" role="group" aria-label="...">
+      <%= link_to edit_task_path(task) do %>
+          <span class="glyphicon glyphicon-pencil"></span>
+      <% end %>
+      <%= link_to task, method: :delete, data: {confirm: 'Are you sure?' } do %>
+          <span class="glyphicon glyphicon-remove"></span>
+      <% end %>
+    </div>
+  </div>
+</div>

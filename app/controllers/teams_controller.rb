@@ -4,13 +4,14 @@ class TeamsController < ApplicationController
   # GET /teams
   # GET /teams.json
   def index
+    @entity = Team.new
     @teams = Team.all
   end
 
   # GET /teams/1
   # GET /teams/1.json
   def show
-    @profile = @team.as_profile
+    @entity = @team
     render 'shared/profile'
   end
 

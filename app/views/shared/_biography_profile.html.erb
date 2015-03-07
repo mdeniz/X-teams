@@ -1,0 +1,9 @@
+<div role="tabpanel" class="tab-pane" id="biography">
+  <br/>
+    <div class="well">
+      <%= raw @entity.biography %>
+    </div>
+    <% unless @entity.more_info_link.nil? %>
+        More at <%= link_to @entity.more_info_link, @entity.more_info_link, :target => '_blank' %>
+    <% end %>
+</div>

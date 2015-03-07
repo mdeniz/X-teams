@@ -1,0 +1,43 @@
+<div class="col-xs-12 col-sm-6 col-md-4">
+    <div class="thumbnail slideRight">
+      <h1><%= @entity.name %></h1>
+      <%= image_tag @entity.image_in_asset, class: 'img-rounded'%>
+      <div class="caption">
+        <% if @entity.is_a? Mutant %>
+            <h3 class="center"><%= @entity.real_name %></h3>
+        <% end %>
+        <ul class="list-group">
+          <li class="list-group-item">
+            Email <span class="badge"><%= @entity.email %></span>
+          </li>
+          <% if @entity.is_a? Mutant %>
+          <li class="list-group-item">
+            <span class="badge"><%= @entity.mobile %></span>
+            Mobile
+          </li>
+          <% end %>
+        </ul>
+      </div>
+    </div>
+    <div class="center fadeIn"  style="position: relative; top: -1.5em;">
+        <% if @entity.is_a? Mutant %>
+            <div class="btn-group" role="group" aria-label="...">
+              <%= link_to edit_mutant_path(@entity) , class: "btn btn-primary", role: "button"  do %>
+                  <span class="glyphicon glyphicon-pencil"></span> Edit this Mutant
+              <% end %>
+              <%= link_to mutants_path, class: "btn btn-success", role: "button" do %>
+                  <span class="glyphicon glyphicon-th"></span> Back to Mutants
+              <% end %>
+            </div>
+        <% elsif @entity.is_a? Team%>
+            <div class="btn-group" role="group" aria-label="...">
+              <%= link_to edit_team_path(@entity) , class: "btn btn-primary", role: "button"  do %>
+                  <span class="glyphicon glyphicon-pencil"></span> Edit this Team
+              <% end %>
+              <%= link_to teams_path, class: "btn btn-success", role: "button" do %>
+                  <span class="glyphicon glyphicon-th"></span> Back to Teams
+              <% end %>
+            </div>
+        <% end %>
+    </div>
+</div>

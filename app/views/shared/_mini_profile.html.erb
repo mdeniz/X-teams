@@ -1,8 +1,11 @@
+<% if (entity.is_a?(Mutant) && from == 'mutant') || (entity.is_a?(Team) && from == 'team')%>
 <div class="thumbnail center col-xs-6 col-sm-4 col-md-2 hatch" profile="true">
-    <h4><%= profile['name'] %></h4>
-    <%= image_tag profile['image'] %>
-    <div class="caption">
-      <%= render partial: 'mini_profile_buttons', locals: {:entity => entity} %>
-    </div>
+<% else %>
+<div class="thumbnail center col-xs-6 col-sm-6 col-md-3 hatch" profile="true">
+<% end %>
+    <h4><%= entity.name %></h4>
+    <%= image_tag entity.image_in_asset, class: 'img-rounded' %>
+    <div class="no_height">
+      <%= render partial: ((entity.is_a? Mutant) ? 'mutants' : 'teams' ) + '/mini_profile_buttons', locals: {:entity => entity, :from => from } %>
     </div>
 </div>

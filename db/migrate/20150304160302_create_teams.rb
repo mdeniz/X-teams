@@ -3,8 +3,8 @@ class CreateTeams < ActiveRecord::Migration
     create_table :teams do |t|
       t.string :name
       t.string :image
+      t.string :email
       t.text :description
-      t.boolean :enabled
 
       t.timestamps null: false
       end

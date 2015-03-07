@@ -1,16 +1,17 @@
 class Mutant < ActiveRecord::Base
 
-  acts_as_taggable
+  has_many :assignations
+  has_many :tasks, -> { order priority: :desc }, through: :assignations
 
+  has_many :membership
+  has_many :teams, through: :membership
+
+  acts_as_taggable
   alias_method :powers, :tag_list
   alias_method 'powers=', 'tag_list='
 
-  def as_profile
-    data = self.attributes
-    data['class'] = 'mutant'
-    data['image'] = data['image'].nil? ? nil : 'profiles/mutants/' + data['image'].to_s
-    data['powers'] = self.powers
-    data
+  def image_in_asset
+    self.image.nil? ? nil : 'profiles/mutants/' + self.image.to_s
   end
 
   def is_professor_xavier
