@@ -1,6 +1,10 @@
 <% provide(:title, 'Profile') %>
 <div class="row">
-  <%= render partial: 'shared/left_side_profile' %>
-  <%= render partial: 'shared/right_side_profile' %>
+  <div class="col-xs-12 col-sm-6 col-md-4 slideRight">
+    <%= render partial: 'shared/left_side_profile' %>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-8 slideLeft ">
+    <%= render partial: 'shared/right_side_profile' %>
+  </div>
 </div>
 

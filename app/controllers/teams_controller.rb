@@ -57,10 +57,29 @@ class TeamsController < ApplicationController
   # DELETE /teams/1
   # DELETE /teams/1.json
   def destroy
-    @team.destroy
-    respond_to do |format|
-      format.html { flash[:success] = 'Team was successfully destroyed.'; redirect_to teams_url  }
-      format.json { head :no_content }
+    if params[:mutant_id]
+      @team.unlink_from_mutant(params[:mutant_id])
+      respond_to do |format|
+        format.js do
+          @mutant = Mutant.find(params[:mutant_id])
+          @mutants_count = @team.mutants.count
+          @tasks_count = @team.tasks.count
+        end
+      end
+    elsif params[:task_id]
+      Task.destroy(params[:task_id])
+      respond_to do |format|
+        format.js do
+          @mutants_count = @team.mutants.count
+          @tasks_count = @team.tasks.count
+        end
+      end
+    else
+      @team.destroy
+      respond_to do |format|
+        format.html { flash[:success] = 'Team was successfully destroyed.'; redirect_to teams_url  }
+        format.json { head :no_content }
+      end
     end
   end
 

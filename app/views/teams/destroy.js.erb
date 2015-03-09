@@ -1,0 +1,3 @@
+$('#tasks_count').html(<%= @tasks_count %>)
+$('#mutants_count').html(<%= @mutants_count %>)
+$('div[role=mutants_tags] span:contains("<%= @mutant.name %>")').remove()

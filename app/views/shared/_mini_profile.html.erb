@@ -1,7 +1,7 @@
 <% if (entity.is_a?(Mutant) && from == 'mutant') || (entity.is_a?(Team) && from == 'team')%>
-<div class="thumbnail center col-xs-6 col-sm-4 col-md-2 hatch" profile="true">
+<div id="mini_profile_<%= entity.id %>" class="thumbnail center col-xs-6 col-sm-3 col-md-2 hatch" profile="true">
 <% else %>
-<div class="thumbnail center col-xs-6 col-sm-6 col-md-3 hatch" profile="true">
+<div id="mini_profile_<%= entity.id %>" class="thumbnail center col-xs-6 col-sm-6 col-md-3 hatch" profile="true">
 <% end %>
     <h4><%= entity.name %></h4>
     <%= image_tag entity.image_in_asset, class: 'img-rounded' %>

@@ -1,14 +1,20 @@
 <div class="btn-group float_relative" role="group" aria-label="...">
-  <%= link_to entity, class: "btn btn-default", role: "button" do %>
+  <%= link_to entity, class: "btn btn-default", role: "button", title: 'Show Team' do %>
       <span class="glyphicon glyphicon-eye-open"></span>
   <% end %>
-  <%= link_to edit_team_path(entity), class: "btn btn-default", role: "button" do %>
+  <%= link_to edit_team_path(entity), class: "btn btn-default", role: "button", title: 'Edit Team' do %>
       <span class="glyphicon glyphicon-pencil"></span>
   <% end if @entity.is_a?(Team)   %>
-  <%= link_to entity, method: :delete, data: {confirm: 'Are you sure?' },  class: "btn btn-danger", role: "button" do %>
+  <%= link_to entity, method: :delete, data: {confirm: 'Are you sure?' },
+      class: "btn btn-danger", role: "button", title: 'Remove Team' do %>
       <span class="glyphicon glyphicon-remove"></span>
   <% end if @entity.is_a?(Team)  %>
-  <%= link_to entity, method: :delete, data: {confirm: 'Are you sure?' },  class: "btn btn-danger", role: "button" do %>
+  <%= link_to team_mutant_path(entity, @entity),
+            method: :delete,
+            data: {confirm: 'Are you sure? Do you want to remove from the Team?' },
+            remote: true,
+            data_action: 'remove_from_team',
+            class: "btn btn-danger", role: "button", title: "Remove from the Team" do %>
       <span class="glyphicon glyphicon-log-out"></span>
   <% end if @entity.is_a?(Mutant)  %>
 </div>

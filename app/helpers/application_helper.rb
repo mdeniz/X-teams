@@ -14,7 +14,8 @@ module ApplicationHelper
     link_to "Moisés Déniz Alemán", contact_path
   end
 
-  def show_tag(power, i)
-    "<span class=\"label label-#{XTeams::Application.getTagColor(i)}\">#{power}</span>"
+  def show_tag(tag, i)
+    "<span class=\"label label-#{XTeams::Application.getTagColor(i)} label_profile\">#{tag}</span>"
   end
+
 end

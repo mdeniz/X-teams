@@ -1,6 +1,6 @@
 class Task < ActiveRecord::Base
 
-  has_many :assignations
+  has_many :assignations, dependent: :delete_all
   has_many :mutants, through: :assignations
 
   belongs_to :team

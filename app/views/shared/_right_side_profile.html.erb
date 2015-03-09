@@ -1,28 +1,25 @@
-  <div class="col-xs-12 col-sm-6 col-md-8">
-    <div class="jumbotron slideLeft" role="tabpanel">
-        <!-- Nav tabs -->
-        <ul class="nav nav-pills" role="tablist">
-          <li role="presentation" class="active"><a href="#info" aria-controls="info" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
-          <% if @entity.is_a? Mutant %>
-              <li role="presentation"><a href="#biography" aria-controls="biography" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-film"></span> Biography</a></li>
-          <% end %>
-          <li role="presentation"><a href="#tasks" aria-controls="tasks" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-list"></span> Tasks</a></li>
-          <% if @entity.is_a? Mutant %>
-              <li role="presentation"><a href="#teams" aria-controls="teams" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-th-large"></span> Teams</a></li>
-          <% end %>
-          <% if @entity.is_a? Team %>
-              <li role="presentation"><a href="#mutants" aria-controls="mutants" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-th"></span> Mutants</a></li>
-          <% end %>
-        </ul>
+  <div role="tabpanel">
+  <!-- Nav tabs -->
+  <ul class="nav nav-pills" role="tablist">
+    <li role="presentation" class="active"><a href="#info" aria-controls="info" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+    <% if @entity.is_a? Mutant %>
+        <li role="presentation"><a href="#biography" aria-controls="biography" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-film"></span> Biography</a></li>
+    <% end %>
+    <li role="presentation"><a href="#tasks" aria-controls="tasks" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-list"></span> Tasks <span class="badge" id="tasks_count"><%= @entity.tasks.count %></span></a></li>
+    <% if @entity.is_a? Mutant %>
+        <li role="presentation"><a href="#teams" aria-controls="teams" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-th-large"></span> Teams <span class="badge" id="teams_count"><%= @entity.teams.count %></span></a></li>
+    <% end %>
+    <% if @entity.is_a? Team %>
+        <li role="presentation"><a href="#mutants" aria-controls="mutants" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-th"></span> Mutants <span class="badge" id="mutants_count"><%= @entity.mutants.count %></span></a></li>
+    <% end %>
+  </ul>
 
-        <!-- Tab panes -->
-        <div class="tab-content">
-          <%= render partial: 'shared/info_profile' %>
-          <%= render partial: 'shared/biography_profile' if @entity.is_a? Mutant %>
-          <%= render partial: 'shared/tasks_profile' %>
-          <%= render partial: 'shared/teams_grid_in_profile', locals: {:teams => @entity.teams} if @entity.is_a? Mutant %>
-          <%= render partial: 'shared/mutants_grid_in_profile', locals: {:mutants => @entity.mutants} if @entity.is_a? Team %>
-        </div>
-
-    </div>
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <%= render partial: 'shared/info_profile' %>
+    <%= render partial: 'shared/biography_profile' if @entity.is_a? Mutant %>
+    <%= render partial: 'shared/tasks_profile' %>
+    <%= render partial: 'shared/teams_grid_in_profile', locals: {:teams => @entity.teams} if @entity.is_a? Mutant %>
+    <%= render partial: 'shared/mutants_grid_in_profile', locals: {:mutants => @entity.mutants} if @entity.is_a? Team %>
+  </div>
   </div>

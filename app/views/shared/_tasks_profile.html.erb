@@ -1,6 +1,7 @@
-<div role="tabpanel" class="tab-pane container" id="tasks">
+<div role="tabpanel" class="tab-pane" id="tasks">
   <br/>
-  <% @entity.tasks.each do |task| %>
-      <%= render partial: 'tasks/task_item', locals: { :task => task} %>
-  <% end %>
+      <% @entity.tasks.each do |task|
+            partial = @entity.is_a?(Mutant) ? 'tasks/task_item_for_mutant' : 'tasks/task_item_for_team' %>
+          <%= render partial: partial, locals: { :task => task} %>
+      <% end %>
 </div>

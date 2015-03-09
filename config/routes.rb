@@ -13,15 +13,18 @@ Rails.application.routes.draw do
   get 'profile', to: 'mutants#show'
 
   resources :teams do
-    resources :mutants
-    resources :tasks
+    resources :mutants, :only => [:create, :destroy]
+    resources :tasks, :only => [:create, :destroy]
   end
   resources :mutants do
-    resources :teams
-    resources :tasks
+    resources :teams, :only => [:create, :destroy]
+    resources :tasks, :only => [:create, :destroy]
   end
   resources :tasks do
-    resources :mutants
-    resources :team
+    resources :mutants, :only => [:create, :destroy]
+    resources :team, :only => [:create, :destroy]
+    member do
+      get 'step/:step', action: 'step', :as => 'step'
+    end
   end
 end

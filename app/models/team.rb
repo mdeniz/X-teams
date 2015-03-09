@@ -1,8 +1,8 @@
 class Team < ActiveRecord::Base
 
-  has_many :tasks
+  has_many :tasks, dependent: :delete_all
 
-  has_many :membership
+  has_many :membership, dependent: :delete_all
   has_many :mutants, through: :membership
 
 
@@ -10,6 +10,15 @@ class Team < ActiveRecord::Base
 
   def image_in_asset
     self.image.nil? ? nil : 'profiles/teams/' + self.image.to_s
+  end
+
+  def unlink_from_mutant(mutant_id)
+    self.tasks.each do |task|
+      assignation = task.assignations.find_by_mutant_id(mutant_id)
+      assignation.destroy if assignation
+    end
+    membership = self.membership.find_by_mutant_id(mutant_id)
+    membership.destroy if membership
   end
 
   def powers

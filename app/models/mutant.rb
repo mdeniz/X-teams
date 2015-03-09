@@ -1,6 +1,6 @@
 class Mutant < ActiveRecord::Base
 
-  has_many :assignations
+  has_many :assignations, dependent: :delete_all
   has_many :tasks, -> { order priority: :desc }, through: :assignations
 
   has_many :membership
@@ -16,6 +16,24 @@ class Mutant < ActiveRecord::Base
 
   def is_professor_xavier
     self.id == 1
+  end
+
+  def unlink_from_team(team_id)
+      tasks_unassigned = []
+      Team.find(team_id).tasks.each do |task|
+        assignation = task.assignations.find_by_mutant_id(self.id)
+        if assignation
+          tasks_unassigned << task
+          assignation.destroy
+        end
+      end
+      membership = self.membership.find_by_team_id(team_id)
+      membership.destroy if membership
+      tasks_unassigned
+  end
+
+  def unlink_from_task(task_id)
+      self.assignations.delete(task_id)
   end
 
   class << self
