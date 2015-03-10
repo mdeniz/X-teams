@@ -28,7 +28,13 @@ class MutantsController < ApplicationController
   # POST /mutants.json
   def create
     @mutant = Mutant.new(mutant_params)
-
+    uploaded_io = params[:mutant][:image]
+    unless uploaded_io.nil?
+      File.open(Rails.root.join('app', 'assets', 'images', 'profiles', 'mutants', uploaded_io.original_filename), 'wb') do |file|
+        file.write(uploaded_io.read)
+      end
+      @mutant.image = uploaded_io.original_filename
+    end
     respond_to do |format|
       if @mutant.save
         format.html { flash[:success] = 'Mutant was successfully created.'; redirect_to @mutant }
@@ -43,8 +49,16 @@ class MutantsController < ApplicationController
   # PATCH/PUT /mutants/1
   # PATCH/PUT /mutants/1.json
   def update
+    params_to_update = mutant_params
+    uploaded_io = params[:mutant][:image]
+    unless uploaded_io.nil?
+      File.open(Rails.root.join('app', 'assets', 'images', 'profiles', 'mutants', uploaded_io.original_filename), 'wb') do |file|
+        file.write(uploaded_io.read)
+        end
+      params_to_update[:image] = uploaded_io.original_filename
+    end
     respond_to do |format|
-      if @mutant.update(mutant_params)
+      if @mutant.update(params_to_update)
         format.html { flash[:success] = 'Mutant was successfully updated.'; redirect_to @mutant }
         format.json { render :show, status: :ok, location: @mutant }
       else
@@ -91,6 +105,7 @@ class MutantsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def mutant_params
-      params[:mutant]
+      params.require(:mutant).permit(:name, :aliases, :real_name, :image, :email,
+      :mobile, :place_of_birth, :identity, :biography, :height, :weight, :eyes, :hair, :skintone, :more_info_link)
     end
 end

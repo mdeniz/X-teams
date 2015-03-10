@@ -1,5 +1,7 @@
 class Mutant < ActiveRecord::Base
 
+  validates :name, presence: true, uniqueness: {case_sensitive: false}
+
   has_many :assignations, dependent: :delete_all
   has_many :tasks, -> { order priority: :desc }, through: :assignations
 
@@ -19,6 +21,7 @@ class Mutant < ActiveRecord::Base
   end
 
   def unlink_from_team(team_id)
+    ActiveRecord::Base.transaction do
       tasks_unassigned = []
       Team.find(team_id).tasks.each do |task|
         assignation = task.assignations.find_by_mutant_id(self.id)
@@ -30,6 +33,7 @@ class Mutant < ActiveRecord::Base
       membership = self.membership.find_by_team_id(team_id)
       membership.destroy if membership
       tasks_unassigned
+    end
   end
 
   def unlink_from_task(task_id)

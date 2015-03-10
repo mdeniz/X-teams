@@ -1,4 +1,35 @@
 .center.jumbotron
-  %h1 Welcome to X-Teams
-
-  %h2 This App provides a Tasking Manager for X-Mens
+  - if logged_in?
+    .row
+      .col-md-3.col-md-offset-3
+        .thumbnail.center
+          %h4
+            = link_to teams_path do
+              = @teams.count
+              Mutants
+          .carousel.slide{ 'data-ride' => :carousel, 'data-interval' => 3000}
+            .carousel-inner{ :role => :listbox }
+              - @teams.each_with_index do |team, i|
+                .item{:class => ("active" if i == 0)}
+                  = image_tag(team.image_in_asset, class: 'img-rounded')
+                  .carousel-caption
+                    %h3
+                    = team.name
+      .col-md-3
+        .thumbnail.center
+          %h4
+            = link_to mutants_path do
+              = @mutants.count
+              Mutants
+          .carousel.slide{ 'data-ride' => :carousel, 'data-interval' => 3000}
+            .carousel-inner{ :role => :listbox }
+              - @mutants.each_with_index do |mutant, i|
+                .item{:class => ("active" if i == 0)}
+                  = image_tag(mutant.image_in_asset, class: 'img-rounded')
+                  .carousel-caption
+                    %h3
+                    = mutant.name
+  - else
+    %h1 Welcome to X-Teams
+    %h2 This App provides a Tasking Manager for X-Mens
+    If you don't know how to use X-Teams see Help section

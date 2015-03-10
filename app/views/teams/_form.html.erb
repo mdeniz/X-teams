@@ -1,25 +1,25 @@
-<%= form_for(@team) do |f| %>
-  <% if @team.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@team.errors.count, "error") %> prohibited this team from being saved:</h2>
+<%= form_for(@team, :html => { :multipart => true }) do |f| %>
+    <%= errors_for(@team) %>
 
-      <ul>
-      <% @team.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
-      </ul>
-    </div>
-  <% end %>
 
-  <div class="field">
-    <%= f.label :name %><br>
+  <div class="form-group">
+    <%= f.label :name, class: 'control-label' %>
     <%= f.text_field :name, class: "form-control" %>
   </div>
-  <div class="field">
-    <%= f.label :description %><br>
+  <div class="form-group">
+      <%= f.label :email, class: 'control-label' %>
+      <%= f.text_field :email, class: "form-control" %>
+  </div>
+
+  <div class="form-group">
+    <%= f.label :description, class: 'control-label' %>
     <%= f.text_area :description, class: "form-control" %>
   </div>
-    <div class="actions btn-group" role="group" aria-label="...">
+  <div class="form-group">
+    <%= f.label :image, class: 'control-label' %>
+    <%= file_field :team, :image %>
+  </div>
+  <div class="actions btn-group" role="group" aria-label="...">
       <%= f.submit class: "btn btn-primary" %>
       <%= link_to teams_path,  class: "btn btn-success", role: "button" do %>
           <span class="glyphicon glyphicon-th-list"></span> Back to Teams

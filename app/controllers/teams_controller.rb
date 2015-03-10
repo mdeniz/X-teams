@@ -28,7 +28,13 @@ class TeamsController < ApplicationController
   # POST /teams.json
   def create
     @team = Team.new(team_params)
-
+    uploaded_io = params[:team][:image]
+    unless uploaded_io.nil?
+      File.open(Rails.root.join('app', 'assets', 'images', 'profiles', 'teams', uploaded_io.original_filename), 'wb') do |file|
+        file.write(uploaded_io.read)
+      end
+      @team.image = uploaded_io.original_filename
+    end
     respond_to do |format|
       if @team.save
         format.html { flash[:success] = 'Team was successfully created.'; redirect_to @team }
@@ -43,8 +49,16 @@ class TeamsController < ApplicationController
   # PATCH/PUT /teams/1
   # PATCH/PUT /teams/1.json
   def update
+    params_to_update = team_params
+    uploaded_io = params[:team][:image]
+    unless uploaded_io.nil?
+      File.open(Rails.root.join('app', 'assets', 'images', 'profiles', 'teams', uploaded_io.original_filename), 'wb') do |file|
+        file.write(uploaded_io.read)
+      end
+      params_to_update[:image] = uploaded_io.original_filename
+    end
     respond_to do |format|
-      if @team.update(team_params)
+      if @team.update(params_to_update)
         format.html { flash[:success] = 'Team was successfully updated.'; redirect_to @team }
         format.json { render :show, status: :ok, location: @team }
       else
@@ -91,6 +105,6 @@ class TeamsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def team_params
-      params.require(:team).permit(:name, :description, :enabled)
+      params.require(:team).permit(:name, :email, :description, :image)
     end
 end

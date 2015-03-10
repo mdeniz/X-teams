@@ -111,7 +111,7 @@ tasks << Task.create(
     description: "calm the masses",
     start: nil,
     end: nil,
-    achieved: rand(0..100),
+    achieved: rand(0..20) * 5,
     priority: rand(0..100)
 )
 
@@ -120,7 +120,7 @@ tasks << Task.create(
     description: "Wash floor, walls and everything",
     start: nil,
     end: nil,
-    achieved: rand(0..100),
+    achieved: rand(0..20) * 5,
     priority: rand(0..100)
 )
 
@@ -129,7 +129,7 @@ tasks << Task.create(
     description: "Hamburguers for all",
     start: nil,
     end: nil,
-    achieved: rand(0..100),
+    achieved: rand(0..20) * 5,
     priority: rand(0..100)
 )
 
@@ -138,7 +138,7 @@ tasks << Task.create(
     description: "Tell how it's going",
     start: nil,
     end: nil,
-    achieved: rand(0..100),
+    achieved: rand(0..20) * 5,
     priority: rand(0..100)
 )
 
@@ -147,7 +147,7 @@ tasks << Task.create(
     description: "Eggs, meat, potatoes and beans",
     start: nil,
     end: nil,
-    achieved: rand(0..100),
+    achieved: rand(0..20) * 5,
     priority: rand(0..100)
 )
 

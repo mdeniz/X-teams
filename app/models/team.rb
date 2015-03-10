@@ -13,12 +13,14 @@ class Team < ActiveRecord::Base
   end
 
   def unlink_from_mutant(mutant_id)
-    self.tasks.each do |task|
-      assignation = task.assignations.find_by_mutant_id(mutant_id)
-      assignation.destroy if assignation
+    ActiveRecord::Base.transaction do
+      self.tasks.each do |task|
+        assignation = task.assignations.find_by_mutant_id(mutant_id)
+        assignation.destroy if assignation
+      end
+      membership = self.membership.find_by_mutant_id(mutant_id)
+      membership.destroy if membership
     end
-    membership = self.membership.find_by_mutant_id(mutant_id)
-    membership.destroy if membership
   end
 
   def powers
