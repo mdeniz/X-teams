@@ -1,5 +1,24 @@
 - provide(:title, 'About')
 %h1 About
-.jumbotron
+.jumbotron.center
   This app has been developed by
   = moises_deniz_aleman
+  to show the capabilities of a Ruby on Rails app.
+  %br
+  %br
+    The following technologies has been used:
+  %br
+  %span.tossing
+    = raw show_tag('Ruby', 0)
+  %span.tossing
+    = raw show_tag('Ruby on Rails', 4)
+  %span.tossing
+    = raw show_tag('HAML', 1)
+  %span.tossing
+    = raw show_tag('YAML', 2)
+  %span.tossing
+    = raw show_tag('ERB', 5)
+  %span.tossing
+    = raw show_tag('SCSS', 4)
+  %span.tossing
+    = raw show_tag('JS/CoffeScript', 3)

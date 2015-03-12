@@ -1,7 +1,7 @@
 .center.jumbotron
   - if logged_in?
     .row
-      .col-md-3.col-md-offset-3
+      .col-xs-6.col-md-3.col-md-offset-3
         .thumbnail.center
           %h4
             = link_to teams_path do
@@ -15,7 +15,7 @@
                   .carousel-caption
                     %h3
                     = team.name
-      .col-md-3
+      .col-xs-6.col-md-3
         .thumbnail.center
           %h4
             = link_to mutants_path do

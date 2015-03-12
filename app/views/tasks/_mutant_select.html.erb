@@ -10,7 +10,7 @@
         <% else %>
             <div class="row">
             <%  @selectable_mutants.each do |mutant| %>
-                      <div  class="col-xs-4 col-sm-3 col-md-2 fadeIn">
+                      <div  class="col-xs-4 col-sm-3 fadeIn">
                         <div  class="thumbnail center">
                             <%= link_to mutant_assign_path(mutant, @task), remote: true do %>
                                     <h4><%= mutant.name %></h4>
