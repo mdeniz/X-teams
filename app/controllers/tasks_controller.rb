@@ -1,5 +1,6 @@
 class TasksController < ApplicationController
-  before_action :set_task, only: [:step, :edit, :update, :destroy]
+  before_action :set_task, only: [:step, :edit, :update, :destroy, :select_mutants,
+                                  :select_mutants_to_unassign, :assign, :unassign]
 
   def index
     @entity = Team.find(params[:id])
@@ -15,6 +16,45 @@ class TasksController < ApplicationController
   # GET /tasks/1/edit
   def edit
     @team = Team.find(params[:team_id])
+  end
+
+  def select_mutants
+    @selectable_mutants = @task.team.mutants. - @task.mutants
+    respond_to do |format|
+      format.js do
+      end
+    end
+  end
+
+  def select_mutants_to_unassign
+    @selectable_mutants = @task.mutants
+    respond_to do |format|
+      format.js do
+      end
+    end
+  end
+
+  # GET /mutants/:mutant_id/assign/:task(.:format)
+  def assign
+    @mutant = Mutant.find(params[:mutant_id])
+    @task.mutants << @mutant
+    @entity = @task.team
+    respond_to do |format|
+      format.js do
+      end
+    end
+  end
+
+  # GET /mutants/:mutant_id/unassign/:task(.:format)
+  def unassign
+    @mutant = Mutant.find(params[:mutant_id])
+    @mutant.unlink_from_task(@task)
+    @entity = @task.team
+    respond_to do |format|
+      format.js do
+        render :assign
+      end
+    end
   end
 
   # POST /tasks
@@ -78,7 +118,7 @@ class TasksController < ApplicationController
   private
   # Use callbacks to share common setup or constraints between actions.
   def set_task
-    @task = Task.find(params[:id] || 1)
+    @task = Task.find(params[:id])
   end
 
   # Never trust parameters from the scary internet, only allow the white list through.

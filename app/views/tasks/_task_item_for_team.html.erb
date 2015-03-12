@@ -7,6 +7,12 @@
       <% task.mutants.each do |mutant| %>
         <%= raw show_tag(mutant.name, mutant.id-1)%>
       <% end %>
+      <%= link_to select_mutants_to_unassign_task_path(task), remote: true, title: 'Unassing a Mutant' do %>
+        <span class="glyphicon glyphicon-minus"></span>
+      <% end unless task.mutants.empty? %>
+      <%= link_to select_mutants_task_path(task), remote: true, title: 'Assing a Mutant' do %>
+          <span class="glyphicon glyphicon-plus"></span>
+      <% end unless (task.team.mutants - task.mutants).empty? %>
     </div>
   </div>
   <div class="col-xs-3 col-sm-4 col-md-2 col-lg-2">

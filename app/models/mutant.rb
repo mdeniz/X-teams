@@ -36,8 +36,9 @@ class Mutant < ActiveRecord::Base
     end
   end
 
-  def unlink_from_task(task_id)
-      self.assignations.delete(task_id)
+  def unlink_from_task(task)
+      assignation = task.assignations.find_by_mutant_id(self.id)
+      assignation.destroy if assignation
   end
 
   class << self

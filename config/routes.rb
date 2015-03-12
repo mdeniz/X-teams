@@ -18,10 +18,14 @@ Rails.application.routes.draw do
   end
   resources :mutants do
     resources :teams, :only => [:create, :destroy]
+    get 'assign/:id', controller: :tasks, action: 'assign', :as => 'assign'
+    get 'unassign/:id', controller: :tasks, action: 'unassign', :as => 'unassign'
   end
   resources :tasks do
     member do
       get 'step/:step', action: 'step', :as => 'step'
+      get :select_mutants, action: :select_mutants, :as => :select_mutants
+      get :select_mutants_to_unassign, action: :select_mutants_to_unassign, :as => :select_mutants_to_unassign
     end
   end
 end

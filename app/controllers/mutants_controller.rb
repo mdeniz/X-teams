@@ -80,7 +80,7 @@ class MutantsController < ApplicationController
         end
       end
     elsif params[:task_id]
-      @mutant.unlink_from_task(params[:team_id])
+      @mutant.unlink_from_task(params[:task_id])
       respond_to do |format|
         format.js do
           @teams_count = @mutant.teams.count
