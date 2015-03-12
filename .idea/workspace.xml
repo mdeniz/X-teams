@@ -34,7 +34,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/Rakefile" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/Rakefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debug_inspector-0.0.2/Rakefile" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debug_inspector-0.0.2/Rakefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/_context.rhtml" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/_context.rhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/about.html.haml" afterPath="$PROJECT_DIR$/app/views/static_pages/about.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/thread_safe-0.3.4/examples/bench_cache.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/thread_safe-0.3.4/examples/bench_cache.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/loofah-2.0.1/benchmark/benchmark.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/loofah-2.0.1/benchmark/benchmark.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debugger-linecache-1.2.0/test/data/block1.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/debugger-linecache-1.2.0/test/data/block1.rb" />
@@ -49,7 +48,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/class.rhtml" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/class.rhtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/haml-4.0.6/lib/haml/compiler.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/haml-4.0.6/lib/haml/compiler.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/compiler_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/compiler_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/contact.html.haml" afterPath="$PROJECT_DIR$/app/views/static_pages/contact.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/conversion_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/conversion_test.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/css2sass_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/css2sass_test.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/scss/css_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/scss/css_test.rb" />
@@ -69,6 +67,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/haml-4.0.6/bin/haml" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/haml-4.0.6/bin/haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/haml-4.0.6/lib/haml/helpers.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/haml-4.0.6/lib/haml/helpers.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/js/highlight.pack.js" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/js/highlight.pack.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/home.html.haml" afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/importer_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/importer_test.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/panel/index.html" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/resources/panel/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/index.rhtml" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sdoc-0.4.1/lib/rdoc/generator/template/sdoc/index.rhtml" />
@@ -169,6 +168,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/libv8-3.16.14.7-x86_64-linux/vendor/v8/include/v8-debug.h" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/libv8-3.16.14.7-x86_64-linux/vendor/v8/include/v8-debug.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/value_helpers_test.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/sass-3.4.13/test/sass/value_helpers_test.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/lib/binding_of_caller/version.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/lib/binding_of_caller/version.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="x_teams.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -259,11 +259,11 @@
         <option value="$PROJECT_DIR$/app/controllers/mutants_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/mutant.rb" />
         <option value="$PROJECT_DIR$/app/controllers/tasks_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/static_pages/home.html.haml" />
         <option value="$PROJECT_DIR$/app/views/tasks/_mutant_select.html.erb" />
         <option value="$PROJECT_DIR$/app/views/tasks/_unassign_mutant_select.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/contact.html.haml" />
         <option value="$PROJECT_DIR$/app/views/static_pages/about.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/static_pages/home.html.haml" />
       </list>
     </option>
   </component>
@@ -1308,14 +1308,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08900524" vertical-offset="0" max-vertical-offset="697">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tasks/_task_item_for_team.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2125" vertical-offset="0" max-vertical-offset="816">
@@ -1336,6 +1328,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29668412" vertical-offset="0" max-vertical-offset="573">
           <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8080279" vertical-offset="98" max-vertical-offset="697">
+          <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
           <folding />
         </state>
       </provider>
