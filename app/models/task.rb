@@ -1,5 +1,9 @@
 class Task < ActiveRecord::Base
 
+  validates :name,  presence: true, length: { maximum: 50 }
+  validates :achieved,  presence: true
+  validates :priority,  presence: true
+
   has_many :assignations, dependent: :delete_all
   has_many :mutants, through: :assignations
 

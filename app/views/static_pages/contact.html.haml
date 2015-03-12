@@ -1,23 +1,27 @@
 - provide(:title, 'Contact and CV')
 %h1 Contact & CV
 .jumbotron
-  Moisés Déniz Alemán
-  %br/
-  c\ Alonso Quintero, 15, 1º
-  %br/
-  Las Palmas de Gran Canaria
-  %br/
-  Spain
-  %br/
-  %br/
-  Email:
-  %a{:href=>"mailto:moisesdenizaleman@gmail.com"} moisesdenizaleman@gmail.com
-  %br/
-  Web (as Photographer):
-  %a{:href=>"http://www.moisesdeniz.com"} www.moisesdeniz.com
-  %br/
-  Mobile Phone: +34 658518947
-  <br/>
-  %br/
-  %h2 Curriculum Vitae
-  ITIS
+  .row
+    .col-xs-5.col-xs-offset-0.col-sm-3.col-sm-offset-2
+      =image_tag "foto_moises.jpg", :height => '200', :class => 'img-thumbnail'
+    .col-xs-7.col-sm-7
+      %h4
+        Moisés Déniz Alemán
+      Las Palmas de Gran Canaria
+      %br/
+      Spain
+      %br/
+      %br/
+      Email:
+      %a{:href=>"mailto:moisesdenizaleman@gmail.com"} moisesdenizaleman@gmail.com
+      %br/
+      Web (as Photographer):
+      %a{:href=>"http://www.moisesdeniz.com"} www.moisesdeniz.com
+      %br/
+      Mobile Phone: +34 658518947
+  .row
+    .col-xs-12
+      %a{:href=>"http://www.moisesdeniz.com/CV_MDA_SWD.pdf", :target => '_blank'}
+        %h4.center.well
+          %span.glyphicon.glyphicon-download-alt
+          Curriculum Vitae

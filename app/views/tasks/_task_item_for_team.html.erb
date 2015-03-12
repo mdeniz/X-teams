@@ -1,30 +1,35 @@
 <div class="row task_bar vertical-align" id="task_item_id_<%= task.id%>">
-  <div class="col-xs-11 col-sm-6">
+  <div class="col-xs-6 col-sm-6 col-md-8">
     <div class="row">
       <span class=" task_bar_title"><%= task.name%></span> <span class=" task_bar_description"><%= task.description%></span>
     </div>
     <div class="row task_bar_team" role="mutants_tags">
-      Mutants <% task.mutants.each do |mutant| %>
+      <% task.mutants.each do |mutant| %>
         <%= raw show_tag(mutant.name, mutant.id-1)%>
       <% end %>
     </div>
   </div>
-  <div class="col-xs-1">
-
+  <div class="col-xs-3 col-sm-4 col-md-2 col-lg-2">
+    <div class="col-xs-6">
+        <%= raw verticalDate(task, :start) %>
+    </div>
+    <div class="col-xs-6">
+      <%= raw verticalDate(task, :end) %>
+    </div>
   </div>
-  <div class="col-xs-11 col-sm-3">
+  <div class="col-xs-2 col-sm-3">
     <div class="progress">
       <div class="progress-bar  progress-bar<%= task.color %> progress-bar-striped" role="progressbar" aria-valuenow="<%= task.achieved%>" aria-valuemin="0" aria-valuemax="100" style="min-width: 4em; width: <%= task.achieved%>%;">
         <%= task.achieved%>%
       </div>
     </div>
   </div>
-  <div class="col-xs-1">
+  <div class="col-xs-1 col-sm-1" style="padding-right: 0.2em;">
     <div class="btn-group" role="group" aria-label="...">
-      <%= link_to edit_task_path(task) do %>
+      <%= link_to edit_team_task_path(task.team, task), remote: true do %>
           <span class="glyphicon glyphicon-pencil"></span>
       <% end %>
-      <%= link_to task, method: :delete, data: {confirm: 'Are you sure?' } do %>
+      <%= link_to task, method: :delete, data: {confirm: 'Are you sure to remove this task?' },remote: true do %>
           <span class="glyphicon glyphicon-remove"></span>
       <% end %>
     </div>

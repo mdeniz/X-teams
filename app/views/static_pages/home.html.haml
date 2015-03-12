@@ -6,7 +6,7 @@
           %h4
             = link_to teams_path do
               = @teams.count
-              Mutants
+              Teams
           .carousel.slide{ 'data-ride' => :carousel, 'data-interval' => 3000}
             .carousel-inner{ :role => :listbox }
               - @teams.each_with_index do |team, i|

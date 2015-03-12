@@ -204,6 +204,39 @@ header {
   font-size: 0.8em;
 }
 
+.task_bar_day_of_month {
+  font-size: 1.8em;
+  line-height: 1.25em;
+  color: rgb(160, 160, 160);
+  text-align: center;
+  &.end{
+    color: rgb(215, 123, 112);
+  }
+}
+
+.task_bar_month {
+  font-size: 0.9em;
+  line-height: 0.5em;
+  color: rgb(160, 160, 160);
+  text-align: center;
+  &.end{
+    color: rgb(215, 123, 112);
+  }
+}
+
+.task_bar_year {
+  font-size: 0.85em;
+  line-height: 0.5em;
+  color: rgb(160, 160, 160);
+  text-align: center;
+  &.end{
+    color: rgb(215, 123, 112);
+  }
+}
+
+
+
+
 .label_profile {
   font-size: 1em;
   line-height: 2;

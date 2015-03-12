@@ -1,0 +1,54 @@
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="exampleModalLabel">New Task of Team "<%= @team.name %>"</h4>
+      </div>
+      <div class="modal-body">
+        <%= form_for(@task, remote: true) do |f| %>
+            <%= errors_for(@task) %>
+            <div class="row">
+                <%= hidden_field :team, :id, value: @team.id %>
+                <div class="form-group col-sm-12">
+                  <%= f.label :name, class: 'control-label' %>
+                  <%= f.text_field :name, class: "form-control", placeholder: 'Task Name' %>
+                </div>
+
+                <div class="form-group col-sm-12">
+                    <%= f.label :description, class: 'control-label' %>
+                    <%= f.text_area :description, class: "form-control", rows: 6, placeholder: 'Medium text about the task...' %>
+                </div>
+
+                <div class="form-group col-sm-6 col-md-4">
+                    <%= f.label :start, class: 'control-label' %>
+                    <%= f.date_field :start, class: "form-control", placeholder: 'Start' %>
+                </div>
+
+
+                <div class="form-group col-sm-6 col-md-4">
+                    <%= f.label :end, class: 'control-label' %>
+                    <%= f.date_field :end, class: "form-control", placeholder: 'End' %>
+                </div>
+
+                <div class="form-group col-sm-6 col-md-6 number">
+                    <%= f.label :achieved, class: 'control-label' %>
+                    <%= f.number_field :achieved, min: 0, max: 100, class: "form-control", placeholder: '% Achieved' %>
+                </div>
+                <div class="form-group col-sm-6 col-md-6 number">
+                    <%= f.label :priority, class: 'control-label' %>
+                    <%= f.number_field :priority, min: 0, max: 100, class: "form-control", placeholder: 'Priority (0..100)' %>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">
+                  Cancel
+                </button>
+                <%= f.submit class: "btn btn-primary" do %>
+                    <span class="glyphicon glyphicon-ok"></span> Create Task
+                <% end %>
+            </div>
+        <% end %>
+      </div>
+  </div>
+</div>

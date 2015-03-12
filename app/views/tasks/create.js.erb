@@ -1,0 +1,3 @@
+$('#tasks_count').html(<%= @tasks_count %>)
+$('#task_form').modal('hide');
+$('#tasks').html("<%= j (render partial: 'shared/tasks_profile') %>");

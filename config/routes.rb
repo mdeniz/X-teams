@@ -14,15 +14,12 @@ Rails.application.routes.draw do
 
   resources :teams do
     resources :mutants, :only => [:create, :destroy]
-    resources :tasks, :only => [:create, :destroy]
+    resources :tasks, :only => [:new, :edit, :create, :destroy]
   end
   resources :mutants do
     resources :teams, :only => [:create, :destroy]
-    resources :tasks, :only => [:create, :destroy]
   end
   resources :tasks do
-    resources :mutants, :only => [:create, :destroy]
-    resources :team, :only => [:create, :destroy]
     member do
       get 'step/:step', action: 'step', :as => 'step'
     end

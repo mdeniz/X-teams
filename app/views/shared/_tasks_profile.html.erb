@@ -1,4 +1,11 @@
 <div role="tabpanel" class="tab-pane" id="tasks">
+    <div class="col-xs-12 text-right">
+      <div class="btn-group" role="group" aria-label="..."><br/>
+          <%= link_to new_team_task_path(@entity), remote: true, role: :button, class: "btn btn-warning" do %>
+            <span class="glyphicon glyphicon-plus"></span> New Task
+          <% end if @entity.is_a?(Team) %>
+      </div>
+    </div>
   <br/>
       <% @entity.tasks.each do |task|
             partial = @entity.is_a?(Mutant) ? 'tasks/task_item_for_mutant' : 'tasks/task_item_for_team' %>
