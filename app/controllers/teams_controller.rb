@@ -1,6 +1,5 @@
 class TeamsController < ApplicationController
-  before_action :set_team, only: [:show, :edit, :update, :destroy]
-
+  before_action :set_team, only: [:show, :edit, :update, :destroy, :select_mutants, :assign]
   # GET /teams
   # GET /teams.json
   def index
@@ -12,6 +11,8 @@ class TeamsController < ApplicationController
   # GET /teams/1.json
   def show
     @entity = @team
+    @mutants = Mutant.all
+    @selectable_mutants = @mutants - @team.mutants
     render 'shared/profile'
   end
 
@@ -78,6 +79,9 @@ class TeamsController < ApplicationController
           @mutant = Mutant.find(params[:mutant_id])
           @mutants_count = @team.mutants.count
           @tasks_count = @team.tasks.count
+	  @entity = @team
+	  @mutants = Mutant.all
+	  @selectable_mutants = @mutants - @team.mutants
         end
       end
     elsif params[:task_id]
@@ -96,11 +100,33 @@ class TeamsController < ApplicationController
       end
     end
   end
+  
+  def select_mutants
+    @mutants = Mutant.all
+    @selectable_mutants = @mutants - @team.mutants
+    respond_to do |format|
+      format.js do
+      end
+    end
+  end
+
+  # GET /teams/:id/assign/:mutant_id(.:format)
+  def assign
+    @mutant = Mutant.find(params[:mutant_id])
+    @team.mutants << @mutant
+    @entity = @team
+    @mutants = Mutant.all
+    @selectable_mutants = @mutants - @team.mutants
+    respond_to do |format|
+      format.js do
+      end
+    end
+  end
 
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_team
-      @team = Team.find(params[:id])
+      @team = Team.find(params[:id] || params[:team_id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.

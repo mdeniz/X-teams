@@ -23,12 +23,6 @@ ready = ->
       $( this ).find("div.btn-group").toggleClass("hidden") unless isMobile()
   );
 
-  # Unlink mutant from team
-  $("div.thumbnail[profile=true] a[data-remote][data_action=remove_from_team]").on("ajax:success", (e, data, status, xhr) ->
-    $(this).parents('div[profile=true]').fadeOut()
-  ).on "ajax:error", (e, data, status, xhr) ->
-    alert ("Error")
-
   #Alerts
   $('.alert').delay( 5000 ).fadeOut()
 

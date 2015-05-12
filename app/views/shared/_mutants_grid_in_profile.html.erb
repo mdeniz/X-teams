@@ -1,5 +1,13 @@
 <div role="tabpanel" class="tab-pane" id="mutants">
-  <br/>
+<% if @entity.is_a?(Team) %>
+  <div class="col-xs-12 text-right">
+      <div class="btn-group" role="group" aria-label="..."><br/>
+          <%= link_to select_mutants_team_path(@entity), remote: true, role: :button, class: "btn btn-warning", title: 'Assing a Mutant' do %>
+	    <span class="glyphicon glyphicon-plus"></span> Add Mutant
+	  <% end unless @selectable_mutants.empty? %>                
+      </div>
+    </div>
+<% end %>
   <div class="row">
   <% mutants.each do |mutant| %>
       <%= render partial: 'shared/mini_profile', locals: { :entity => mutant, :from => 'team'} %>

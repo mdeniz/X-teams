@@ -13,7 +13,11 @@ Rails.application.routes.draw do
   get 'profile', to: 'mutants#show'
 
   resources :teams do
+    get 'assign/:mutant_id', action: 'assign', :as => 'assign'
     resources :mutants, :only => [:create, :destroy]
+    member do
+      get :select_mutants, action: :select_mutants, :as => :select_mutants
+    end
     resources :tasks, :only => [:new, :edit, :create, :destroy]
   end
   resources :mutants do

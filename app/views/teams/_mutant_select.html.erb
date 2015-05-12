@@ -1,0 +1,32 @@
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="mutantSelectModalLabel">Assing Mutant to Team "<%= @team.name %>"</h4>
+      </div>
+      <div class="modal-body">
+        <% if @selectable_mutants.empty? %>
+            No Mutants available to assing
+        <% else %>
+            <div class="row">
+            <%  @selectable_mutants.each do |mutant| %>
+                      <div  class="col-xs-4 col-sm-3 fadeIn">
+                        <div  class="thumbnail center">
+                            <%= link_to team_assign_path(@team,mutant), remote: true do %>
+                                    <h4><%= mutant.name %></h4>
+                                    <%= image_tag mutant.image_in_asset, class: 'img-rounded' %>
+                            <% end %>
+                        </div>
+                      </div>
+            <%   end %>
+             </div>
+        <%   end %>
+
+        <div class="modal-footer center">
+            <button type="button" class="btn btn-default" data-dismiss="modal">
+              Close
+            </button>
+        </div>
+      </div>
+  </div>
+</div>

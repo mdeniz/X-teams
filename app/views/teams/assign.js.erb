@@ -1,0 +1,2 @@
+$('#mutant_select').modal('hide');
+$('#mutants').html("<%= j (render partial: 'shared/mutants_grid_in_profile', locals: {:mutants => @entity.mutants}) %>");

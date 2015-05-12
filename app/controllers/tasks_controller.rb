@@ -19,7 +19,7 @@ class TasksController < ApplicationController
   end
 
   def select_mutants
-    @selectable_mutants = @task.team.mutants. - @task.mutants
+    @selectable_mutants = @task.team.mutants - @task.mutants
     respond_to do |format|
       format.js do
       end
