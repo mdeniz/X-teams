@@ -1,9 +1,16 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  name: MyString
-  description: MyText
+xmen:
+  id: 1
+  name: 'X-Men'
+  image: 'xmen.jpg'
+  email: 'info@xmen.com'
+  description: "Under a cloud of increasing anti-mutant sentiment, Professor Xavier created a safe haven at his Westchester mansion where he could train young mutants to use their powers for the betterment of mankind. Aided by F.B.I. agent Fred Duncan, Xavier spent months recruiting his early students (code-named Cyclops, Iceman, Angel, Beast and Marvel Girl), dubbing them \"X-Men\" because each possessed an \"extra\" ability normal humans lacked. The X-Men made their public debut by thwarting Magneto's seizure of the Cape Citadel missile base. The U.S. military was grateful, and the youngsters were initially regarded as heroes. Magneto would battle the X-Men repeatedly over the years, sometimes leading his Brotherhood of Evil Mutants. The X-Men also battled such threats as the immovable Blob, the untouchable Unus, the alien Lucifer, the savage Swamp Men, the enigmatic Stranger, the unstoppable Juggernaut, and the giant mutant-hunting Sentinel robots.<br><br>The arrogant mutated human Mimic briefly joined the team before Xavier secretly went into hiding. Requiring seclusion to prepare for a forthcoming invasion of Earth by the alien Z'Nox, Xavier had the shape-shifting mutant Changeling impersonate him in order to supervise the X-Men in his absence; however, the Changeling \"Xavier\" died heroically in battle against the subterranean Grotesk. Of the X-Men, only Marvel Girl knew that Xavier was still alive, though she was sworn to secrecy. Duncan had the X-Men disband briefly, but the team had regrouped by the time Xavier finally came out of hiding, leading them in repelling the Z'Nox with the aid of the Fantastic Four. Joined by Polaris and Havok, the heroes befriended Avia of the Savage Land's Nhu'Gari race, and fought the likes of African mutant Deluge (alongside young future member Storm), the mutant slave-runner Krueger, the criminal Dazzler (Angel's uncle, Burt Worthington), the telepathic alliance known as the Promise, the Inhuman Yeti, and the Secret Empire."
 
-two:
-  name: MyString2
-  description: MyText2
+avengers:
+  id: 2
+  name: 'Avengers'
+  image: 'avengers.jpg'
+  email: 'info@avengers.com'
+  description: "They are Earth's mightiest heroes, formed to fight the foes no single hero could withstand. The Avengers are the most prestigious and powerful super-hero team in the world, an ever-shifting assemblage of super-beings, adventurers and crime fighters devoted to protecting the planet from menaces beyond the scope of conventional authorities.<br><br>The group began with the random teaming of Thor, Iron Man, Ant-Man, Wasp and Hulk, who joined forces to thwart the Asgardian menace Loki in response to a call for help from Hulk's teen sidekick, Rick Jones. Pym suggested the heroes remain together as a team, and his partner Wasp suggested they call themselves \"something colorful and dramatic, like...the Avengers.\" The name stuck, and a legend was born."
+
