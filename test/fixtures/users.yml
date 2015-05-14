@@ -1,9 +1,6 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  email: MyString
-  password_digest: <%= BCrypt::Password.create('secret') %>
-
-two:
-  email: MyString
-  password_digest: <%= BCrypt::Password.create('secret') %>
+xavier:
+  name: 'Charles Francis Xavier'
+  email: 'xavier@xmen.com'
+  password_digest: <%= BCrypt::Password.create('professor') %>
