@@ -1,7 +1,7 @@
 require 'test_helper'
 
 class StaticPagesControllerTest < ActionController::TestCase
-
+  
   test "should get about page successfully" do
     get :about
     assert_response :success
@@ -49,7 +49,7 @@ class StaticPagesControllerTest < ActionController::TestCase
     assert_nil assigns(:mutants)
     assert_nil assigns(:mutant)
   end
-  
+    
   # Views tests
     
   test "home page should show a thumbnail menu if user is logged in" do

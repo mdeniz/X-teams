@@ -84,14 +84,6 @@ class TeamsController < ApplicationController
 	  @selectable_mutants = @mutants - @team.mutants
         end
       end
-    elsif params[:task_id]
-      Task.destroy(params[:task_id])
-      respond_to do |format|
-        format.js do
-          @mutants_count = @team.mutants.count
-          @tasks_count = @team.tasks.count
-        end
-      end
     else
       @team.destroy
       respond_to do |format|
