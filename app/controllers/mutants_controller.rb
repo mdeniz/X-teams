@@ -79,18 +79,10 @@ class MutantsController < ApplicationController
           @tasks_count = @mutant.tasks.count
         end
       end
-    elsif params[:task_id]
-      @mutant.unlink_from_task(params[:task_id])
-      respond_to do |format|
-        format.js do
-          @teams_count = @mutant.teams.count
-          @tasks_count = @mutant.tasks.count
-        end
-      end
     else
       @mutant.destroy
       respond_to do |format|
-        format.html { flash[:success] = 'Mutant was successfully destroyed..'; redirect_to mutants_url }
+        format.html { flash[:success] = 'Mutant was successfully destroyed.'; redirect_to mutants_url }
         format.json { head :no_content }
       end
     end

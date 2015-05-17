@@ -2,11 +2,6 @@ class TasksController < ApplicationController
   before_action :set_task, only: [:step, :edit, :update, :destroy, :select_mutants,
                                   :select_mutants_to_unassign, :assign, :unassign]
 
-  def index
-    @entity = Team.find(params[:id])
-    render partial: 'shared/tasks_profile'
-  end
-
   # GET /tasks/new
   def new
     @task = Task.new

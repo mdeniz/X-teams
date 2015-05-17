@@ -1,4 +1,4 @@
-$('#tasks_count').html(<%= @tasks_count %>)
-$('#mutants_count').html(<%= @mutants_count %>)
-$('div[role=mutants_tags] span:contains("<%= @mutant.name %>")').remove()
+$('#tasks_count').html("<%= @tasks_count %>");
+$('#mutants_count').html("<%= @mutants_count %>");
+$('div[role=mutants_tags] span:contains("<%= @mutant.name %>")').remove();
 $('#mutants').html("<%= j (render partial: 'shared/mutants_grid_in_profile', locals: {:mutants => @entity.mutants}) %>");
