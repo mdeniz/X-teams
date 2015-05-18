@@ -41,22 +41,17 @@ class StaticPagesControllerTest < ActionController::TestCase
     assert_select 'div.jumbotron'
   end
   
-  test "should get home page successfully" do
+  test "home page should do assigns if user is logged in" do
+    session[:user_id] = users(:xavier).id
     get :home
     assert_response :success
     assert_template :home
     assert_template layout: "layouts/application"
-  end
-    
-  test "home page should do assigns if user is logged in" do
-    session[:user_id] = users(:xavier).id
-    get :home
     assert @controller.logged_in?
     assert_not_nil assigns(:teams)
     assert_not_nil assigns(:team)
     assert_not_nil assigns(:mutants)
     assert_not_nil assigns(:mutant)
-    assert @controller.logged_in?
     assert_select 'h4' do
       assert_select 'a'
     end
@@ -65,6 +60,9 @@ class StaticPagesControllerTest < ActionController::TestCase
   test "home page shouldn't do assigns if user is logged out" do
     session[:user_id] = nil
     get :home
+    assert_response :success
+    assert_template :home
+    assert_template layout: "layouts/application"
     assert_not @controller.logged_in?
     assert_nil assigns(:teams)
     assert_nil assigns(:team)
